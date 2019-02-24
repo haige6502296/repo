@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--注意区别ref和value-->
+
+    <!--第一步:生成一个DriverManagerDataSource的bean-->
+    <bean id="data" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/mydb?useSSL=false"/>
+        <property name="username" value="root"/>
+        <property name="password" value="catv.com"/>
+    </bean>
+
+
+    <!--第二步:生成一个JdbcTemplate类的bean-jtp引用DriverManagerDataSource的bean->data-->
+    <bean id="jtp" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="data"/>
+    </bean>
+
+    <!--第三步:根据MainApp类产生的bean-edao引用JdbcTemplate的beanjtp-->
+    <bean id="edao" class="net.lct.EmployeeDao">
+        <property name="jdbctemplate" ref="jtp"/>
+    </bean>
+
+</beans>
