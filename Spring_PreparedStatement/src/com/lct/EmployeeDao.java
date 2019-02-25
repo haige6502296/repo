@@ -1,11 +1,10 @@
 package com.lct;
 
-import org.springframework.dao.DataAccessException;
+
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementCallback;
 
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+
 
 public class EmployeeDao {
   private JdbcTemplate jdbcTemplate;
@@ -14,15 +13,12 @@ public class EmployeeDao {
     this.jdbcTemplate = jdbcTemplate;
   }
 
-  public boolean saveData(final Employee e) {
-    return jdbcTemplate.execute("insert into employee values(?,?,?)", new PreparedStatementCallback<Boolean>() {
-      @Override
-      public Boolean doInPreparedStatement(PreparedStatement ps) throws SQLException, DataAccessException {
-        ps.setInt(1, e.getId());
-        ps.setString(2, e.getName());
-        ps.setFloat(3, e.getSalary());
-        return ps.execute();
-      }
+boolean saveData(final Employee e) {
+    return jdbcTemplate.execute("insert into employee values(?,?,?)", (PreparedStatementCallback<Boolean>) ps -> {
+      ps.setInt(1, e.getId());
+      ps.setString(2, e.getName());
+      ps.setFloat(3, e.getSalary());
+      return ps.execute();
     });
   }
 }
