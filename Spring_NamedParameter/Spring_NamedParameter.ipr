@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="mydb@localhost" uuid="a4b58e65-6e7e-4ac1-81bc-1e32fbe4914b">
+    <data-source source="LOCAL" name="mydb" uuid="edab6164-6df3-43c7-9882-7a3d188d79d8">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
@@ -87,7 +87,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Spring_RowMapper.iml" filepath="$PROJECT_DIR$/Spring_RowMapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_NamedParameter.iml" filepath="$PROJECT_DIR$/Spring_NamedParameter.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -126,7 +126,7 @@
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
   </component>
   <component name="dataSourceStorageLocal">
-    <data-source name="mydb@localhost" uuid="a4b58e65-6e7e-4ac1-81bc-1e32fbe4914b">
+    <data-source name="mydb" uuid="edab6164-6df3-43c7-9882-7a3d188d79d8">
       <database-info product="MySQL" version="5.7.25" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.45 ( Revision: 9131eefa398531c7dc98776e8a3fe839e544c5b2 )" dbms="MYSQL" exact-version="5.7.25" exact-driver-version="5.1">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
