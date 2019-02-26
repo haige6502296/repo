@@ -4,7 +4,6 @@ public class Employee {
   private int id;
   private String name;
   private float salary;
-
   Employee() {
   }
 
@@ -15,11 +14,11 @@ public class Employee {
     this.salary = salary;
   }
 
-  int getId() {
+  public int getId() {
     return id;
   }
 
-  void setId(int id) {
+  public void setId(int id) {
     this.id = id;
   }
 

@@ -9,7 +9,7 @@ public class MainApp {
     EmployeeDao edao=(EmployeeDao)ac.getBean("edao");
 
     /*调用dao的方法*/
-    edao.saveData(new Employee(100,"Jack",35000));
+    edao.saveData(new Employee(2,"Bush",35000));
     System.out.println("数据插入成功" );
   }
 }
