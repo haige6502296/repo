@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
-    <facet type="Spring" name="Spring">
+    <facet type="hibernate" name="Hibernate">
       <configuration>
-        <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/spring-config.xml</file>
-        </fileset>
+        <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" value="9b826263-9daa-4363-ac1c-0f01a949adef" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
       </configuration>
     </facet>
   </component>
@@ -16,7 +18,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="Spring-5.1.5.RELEASE" level="application" />
-    <orderEntry type="library" name="Spring" level="project" />
+    <orderEntry type="library" exported="" name="Hibernate 5.4.1-5.4.1" level="application" />
   </component>
 </module>
