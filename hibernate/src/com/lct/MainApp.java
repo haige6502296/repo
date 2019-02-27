@@ -1,6 +1,4 @@
 package com.lct;
-
-import com.lct.Employee;
 import org.hibernate.*;
 import org.hibernate.boot.Metadata;
 import org.hibernate.boot.MetadataSources;
@@ -22,7 +20,11 @@ public class MainApp {
     e.setName("Alice");
     e.setSalary(28000);
 
-    session.save(e);
+    try {
+      session.save(e);
+    } catch (Exception e1) {
+      System.out.println("插入失败,id值重复");
+    }
     t.commit();
     System.out.println("successfully saved");
     factory.close();
