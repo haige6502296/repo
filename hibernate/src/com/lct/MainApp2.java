@@ -111,6 +111,7 @@ public class MainApp2 {
       if (tx != null) tx.rollback();
       e.printStackTrace();
     } finally {
+      factory.close();
       session.close();
     }
   }
