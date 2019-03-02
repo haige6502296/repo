@@ -21,6 +21,7 @@ public class UserDao {
 
     session.save(u);
 
+//这里只是一个示例，没有做异常处理
     t.commit();
     session.close();
   }
