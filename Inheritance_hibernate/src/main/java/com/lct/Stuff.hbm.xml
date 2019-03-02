@@ -14,6 +14,8 @@
             <property name="pay_per_hour"/>
             <property name="contract_duration"/>
         </subclass>
+
+
         <subclass name="com.lct.Regular_Stuff" discriminator-value="reg_stuff">
             <property name="salary"/>
             <property name="bonus"/>
