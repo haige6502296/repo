@@ -5,7 +5,8 @@
 <hibernate-mapping>
 
     <class name="com.lct.User" table="user" schema="mydb">
-        <id name="id">
+        <id name="id" >
+            <!--<generator class="native"></generator>-->
             <column name="id" sql-type="int(11)"/>
         </id>
         <property name="name">
