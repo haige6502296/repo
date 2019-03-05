@@ -26,6 +26,13 @@
     </profile>
     <version value="1.0" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="Palette2">
     <group name="Swing">
       <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
@@ -216,7 +223,14 @@
   </component>
   <component name="PublishConfigData" autoUpload="Always" createEmptyFolders="true">
     <serverData>
-      <paths name="jboss">
+      <paths name="Jboss">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tomcat9">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
