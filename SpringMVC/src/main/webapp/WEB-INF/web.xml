@@ -5,6 +5,7 @@
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0"
          metadata-complete="true">
+
   <display-name>SpringMVC</display-name>
   <servlet>
     <servlet-name>spring</servlet-name>
@@ -16,11 +17,4 @@
     <url-pattern>/</url-pattern>
   </servlet-mapping>
 
-
-
-  <!--把spring-servlet.xml加入到配置文件中-->
-  <context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>/WEB-INF/spring-servlet.xml</param-value>
-  </context-param>
 </web-app>
