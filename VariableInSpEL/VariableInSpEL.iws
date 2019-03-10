@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c1d13dc-6f1f-46b9-bf46-8be0ca137b69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AnnotationHibernate/AnnotationHibernate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnnotationHibernate/AnnotationHibernate.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnnotationHibernate/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnnotationHibernate/src/main/java/com/lct/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnnotationHibernate/src/main/java/com/lct/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnnotationHibernate/src/main/java/com/lct/MainSelect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnnotationHibernate/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation_Hibernate_Inheritance/Annotation_Hibernate_Inheritance.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation_Hibernate_Inheritance/Annotation_Hibernate_Inheritance.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation_Hibernate_Inheritance/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation_Hibernate_Inheritance/src/main/java/com/lct/Contract_Stuff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation_Hibernate_Inheritance/src/main/java/com/lct/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation_Hibernate_Inheritance/src/main/java/com/lct/Regular_Stuff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation_Hibernate_Inheritance/src/main/java/com/lct/Stuff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation_Hibernate_Inheritance/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate2/Hibernate2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate2/Hibernate2.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateAnnotation_withoutSpring/HibernateAnnotation_withoutSpring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateAnnotation_withoutSpring/HibernateAnnotation_withoutSpring.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateAnnotation_withoutSpring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateAnnotation_withoutSpring/src/main/java/com/lct/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateAnnotation_withoutSpring/src/main/java/com/lct/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateAnnotation_withoutSpring/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_Collection/Hibernate_Collection.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_Collection/Hibernate_Collection.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_Collection/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_Collection/src/main/java/com/lct/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_Collection/src/main/java/com/lct/MainApp2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_Collection/src/main/java/com/lct/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_Collection/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_Collection/src/main/resources/question.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_ManyToOne/.ideaDataSources/2d5c1e61-be17-4e09-8318-e78dd6060949.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_ManyToOne/Hibernate_ManyToOne.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_ManyToOne/Hibernate_ManyToOne.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_ManyToOne/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_ManyToOne/src/main/java/com/lct/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_ManyToOne/src/main/java/com/lct/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_ManyToOne/src/main/java/com/lct/MainSaveData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_ManyToOne/src/main/java/com/lct/MainSelectData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_ManyToOne/src/main/resources/address.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_ManyToOne/src/main/resources/employee.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_ManyToOne/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_name_query/Hibernate_name_query.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_name_query/Hibernate_name_query.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_name_query/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_name_query/src/main/java/com/lct/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_name_query/src/main/java/com/lct/MainAPP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate_name_query/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance_hibernate/.ideaDataSources/4ec5ed8d-a2a2-4a71-bc12-bcc95caeaf05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance_hibernate/Inheritance_hibernate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance_hibernate/Inheritance_hibernate.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance_hibernate/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance_hibernate/src/main/java/com/lct/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance_hibernate/src/main/java/com/lct/Contract_Stuff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance_hibernate/src/main/java/com/lct/Regular_Stuff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance_hibernate/src/main/java/com/lct/Stuff.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance_hibernate/src/main/java/com/lct/Stuff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance_hibernate/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RowMapper/Spring_RowMapper.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RowMapper/Spring_RowMapper.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RowMapper/src/com/lct/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RowMapper/src/com/lct/EmployeeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RowMapper/src/com/lct/EmployeeDaoExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RowMapper/src/com/lct/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RowMapper/src/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spirng_JdbcTemplate/Spirng_JdbcTemplate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spirng_JdbcTemplate/Spirng_JdbcTemplate.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spirng_JdbcTemplate/src/com/lct/Dao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spirng_JdbcTemplate/src/com/lct/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spirng_JdbcTemplate/src/com/lct/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spirng_JdbcTemplate/src/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWithHibernate/.ideaDataSources/caf36c1b-588c-47b7-8d72-00e05f546286.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWithHibernate/SpringWithHibernate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWithHibernate/SpringWithHibernate.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWithHibernate/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWithHibernate/src/main/java/com/lct/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWithHibernate/src/main/java/com/lct/EmployeeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWithHibernate/src/main/java/com/lct/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWithHibernate/src/main/resources/bean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWithHibernate/src/main/resources/employee.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Dao_PreparedStatementCallback/.ideaDataSources/a867e1c7-2c96-4134-b017-ffa0dd7ed337.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Dao_PreparedStatementCallback/Spring_Dao_PreparedStatementCallback.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Dao_PreparedStatementCallback/Spring_Dao_PreparedStatementCallback.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Dao_PreparedStatementCallback/src/net/lct/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Dao_PreparedStatementCallback/src/net/lct/EmployeeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Dao_PreparedStatementCallback/src/net/lct/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Dao_PreparedStatementCallback/src/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_NamedParameter/Spring_NamedParameter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_NamedParameter/Spring_NamedParameter.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_NamedParameter/src/com/lct/Dao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_NamedParameter/src/com/lct/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_NamedParameter/src/com/lct/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_NamedParameter/src/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_PreparedStatement/Spring_PreparedStatement.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_PreparedStatement/Spring_PreparedStatement.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_PreparedStatement/src/com/lct/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_PreparedStatement/src/com/lct/EmployeeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_PreparedStatement/src/com/lct/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_PreparedStatement/src/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_ResultSetExtractor/Spring_ResultSetExtractor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_ResultSetExtractor/Spring_ResultSetExtractor.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_ResultSetExtractor/src/com/lct/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_ResultSetExtractor/src/com/lct/EmployeeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_ResultSetExtractor/src/com/lct/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_ResultSetExtractor/src/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/src/com/lct/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello/hello.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello/helloServlet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello/src/com/lct/First.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.ideaDataSources/6208be2b-a741-4f8f-85a2-80039d8946b5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/hibernate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/hibernate.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/com/lct/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/com/lct/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/com/lct/MainApp2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/com/lct/employee.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_joinedsubclass/hibernate_joinedsubclass.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_joinedsubclass/hibernate_joinedsubclass.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_joinedsubclass/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_joinedsubclass/src/main/java/com/lct/Contract_Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_joinedsubclass/src/main/java/com/lct/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_joinedsubclass/src/main/java/com/lct/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_joinedsubclass/src/main/java/com/lct/Regular_Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_joinedsubclass/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_joinedsubclass/src/main/resources/member.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_logj4/.ideaDataSources/9757f4bf-d366-4f50-aa07-ed6a300e33ab.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_logj4/maven_logj4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_logj4/maven_logj4.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_logj4/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_logj4/src/main/java/com/lct/Employee.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_logj4/src/main/java/com/lct/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_logj4/src/main/java/com/lct/StoreData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_logj4/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_logj4/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_logj4/src/main/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mymaven18/mymaven18.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mymaven18/mymaven18.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mymaven18/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mymaven18/src/main/java/com/lct/User.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mymaven18/src/main/java/com/lct/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mymaven18/src/main/java/com/lct/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mymaven18/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mymaven18/src/main/webapp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mymaven18/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mymaven18/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mymaven18/src/main/webapp/register.jsp" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="../AnnotationHibernate/.ideaDataSources/524676b3-fadc-42a9-a436-6f1d6b21872f.xml" />
+    <ignored path="../myhibernateWeb/.ideaDataSources/7635f078-f2fa-411a-8e3f-434b061d29fc.xml" />
+    <ignored path="../Annotation_Hibernate_Inheritance/.ideaDataSources/a5f16838-5170-409d-88b2-eecf95cdcc12.xml" />
+    <ignored path="../Hibernate_ManyToOne/target/classes/com/lct/Address.class" />
+    <ignored path="../Hibernate_ManyToOne/target/classes/address.hbm.xml" />
+    <ignored path="../myhibernateWeb/WebRoot/js/ajax.js" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/js/ajax.js" />
+    <ignored path="../AnnotationHibernate/target/Annotation-Hibernate-1.0-SNAPSHOT.jar" />
+    <ignored path="../Annotation_Hibernate_Inheritance/target/Annotation_Hibernate_Inheritance-1.0-S-1.jar" />
+    <ignored path="../Annotation_Hibernate_Inheritance/Annotation_Hibernate_Inheritance.iws" />
+    <ignored path="../AnnotationHibernate/AnnotationHibernate.iws" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/antlr-2.7.7.jar" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/lib/antlr-2.7.7.jar" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/lib/antlr-2.7.7.jar" />
+    <ignored path="../Inheritance_hibernate/target/classes/com/lct/App.class" />
+    <ignored path="../Inheritance_hibernate/target/test-classes/com/lct/AppTest.class" />
+    <ignored path="../mymaven18/.ideaDataSources/b3be92af-a334-48bf-9abe-c94264137d46.xml" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/classes/cn/hncu/utils/BaseServlet.class" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/classes/cn/hncu/utils/BaseServlet.class" />
+    <ignored path="../myhibernateWeb/target/classes/cn/hncu/utils/BaseServlet.class" />
+    <ignored path="../myhibernateWeb/src/main/java/cn/hncu/utils/BaseServlet.java" />
+    <ignored path="../SpringWithHibernate/target/classes/bean.xml" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/byte-buddy-1.9.5.jar" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/lib/classmate-1.3.0.jar" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/lib/classmate-1.3.0.jar" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/classmate-1.3.4.jar" />
+    <ignored path="../Maven_Hiberate_web/.idea/codeStyles/codeStyleConfig.xml" />
+    <ignored path="../Test/.idea/codeStyles/codeStyleConfig.xml" />
+    <ignored path="../Inheritance_hibernate/target/surefire-reports/com.lct.AppTest.txt" />
+    <ignored path="../maven_logj4/target/surefire-reports/com.lct.AppTest.txt" />
+    <ignored path="../Maven_Hiberate_web/.idea/compiler.xml" />
+    <ignored path="../Test/.idea/compiler.xml" />
+    <ignored path="../hibernate_joinedsubclass/target/classes/com/lct/Contract_Member.class" />
+    <ignored path="../Inheritance_hibernate/target/classes/com/lct/Contract_Stuff.class" />
+    <ignored path="../Annotation_Hibernate_Inheritance/target/classes/com/lct/Contract_Stuff.class" />
+    <ignored path="../maven_logj4/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <ignored path="../maven_logj4/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+    <ignored path="../Inheritance_hibernate/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <ignored path="../Inheritance_hibernate/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+    <ignored path="../mymaven18/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <ignored path="../Hibernate_Collection/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <ignored path="../Hibernate_ManyToOne/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <ignored path="../Annotation_Hibernate_Inheritance/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <ignored path="../SpringWithHibernate/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <ignored path="../hibernate_joinedsubclass/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <ignored path="../AnnotationHibernate/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <ignored path="../Hibernate_name_xml/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <ignored path="../Hibernate_name_query/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <ignored path="../hibernate_joinedsubclass/.ideaDataSources/d17e416b-4237-428f-b5b1-037482d49d50.xml" />
+    <ignored path="../Hibernate_name_query/.ideaDataSources/d7d0c464-f465-42a4-a8cd-d02e5ced4c6a.xml" />
+    <ignored path="../myhibernateWeb/WebRoot/jsps/demo.jsp" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/jsps/demo.jsp" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/classes/cn/hncu/demo/dao/DemoJdbcDao.class" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/classes/cn/hncu/demo/dao/DemoJdbcDao.class" />
+    <ignored path="../myhibernateWeb/target/classes/cn/hncu/demo/dao/DemoJdbcDao.class" />
+    <ignored path="../myhibernateWeb/src/main/java/cn/hncu/demo/dao/DemoJdbcDao.java" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/classes/cn/hncu/demo/service/DemoServiceImpl.class" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/classes/cn/hncu/demo/service/DemoServiceImpl.class" />
+    <ignored path="../myhibernateWeb/target/classes/cn/hncu/demo/service/DemoServiceImpl.class" />
+    <ignored path="../myhibernateWeb/src/main/java/cn/hncu/demo/service/DemoServiceImpl.java" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/classes/cn/hncu/demo/DemoServlet.class" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/classes/cn/hncu/demo/DemoServlet.class" />
+    <ignored path="../myhibernateWeb/target/classes/cn/hncu/demo/DemoServlet.class" />
+    <ignored path="../myhibernateWeb/src/main/java/cn/hncu/demo/DemoServlet.java" />
+    <ignored path="../Maven_Hiberate_web/.idea/deployment.xml" />
+    <ignored path="../Test/.idea/deployment.xml" />
+    <ignored path="../Test/.idea/description.html" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/dom4j-2.1.1.jar" />
+    <ignored path="../Hibernate_name_query/target/classes/com/lct/Employee.class" />
+    <ignored path="../Hibernate_ManyToOne/target/classes/com/lct/Employee.class" />
+    <ignored path="../maven_logj4/target/classes/com/lct/Employee.class" />
+    <ignored path="../SpringWithHibernate/target/classes/com/lct/Employee.class" />
+    <ignored path="../AnnotationHibernate/target/classes/com/lct/Employee.class" />
+    <ignored path="../Hibernate_name_xml/target/classes/com/lct/Employee.class" />
+    <ignored path="../Hibernate2/src/main/java/com/lct/Employee.hbm.xml" />
+    <ignored path="../maven_logj4/target/classes/com/lct/Employee.hbm.xml" />
+    <ignored path="../SpringWithHibernate/target/classes/employee.hbm.xml" />
+    <ignored path="../Hibernate_name_xml/target/classes/employee.hbm.xml" />
+    <ignored path="../Hibernate_name_xml/src/main/resources/employee.hbm.xml" />
+    <ignored path="../Hibernate_ManyToOne/target/classes/employee.hbm.xml" />
+    <ignored path="../Hibernate2/src/main/java/com/lct/Employee.java" />
+    <ignored path="../Hibernate_name_xml/src/main/java/com/lct/Employee.java" />
+    <ignored path="../SpringWithHibernate/target/classes/com/lct/EmployeeDao.class" />
+    <ignored path="../Maven_Hiberate_web/.idea/encodings.xml" />
+    <ignored path="../Test/.idea/encodings.xml" />
+    <ignored path="../Hibernate_Collection/.ideaDataSources/f65651ec-4efb-4c40-9dab-ad57b451f1fe.xml" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/FastInfoset-1.2.15.jar" />
+    <ignored path="../Hibernate_name_xml/.ideaDataSources/ff3e1ec2-c365-4a8c-8943-043033c562f6.xml" />
+    <ignored path="../testServlet/out/production/testServlet/First.class" />
+    <ignored path="../testServlet/out/artifacts/testServlet_war_exploded.war/WEB-INF/classes/First.class" />
+    <ignored path="../hello/out/artifacts/hello_war_exploded.war/WEB-INF/classes/com/lct/First.class" />
+    <ignored path="../hello/out/production/helloServlet/com/lct/First.class" />
+    <ignored path="../testServlet/out/artifacts/testServlet_war_exploded.war/WEB-INF/classes/First.java" />
+    <ignored path="../testServlet/web/WEB-INF/classes/First.java" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" />
+    <ignored path="../hello/hello.iws" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/lib/hibernate-core-5.1.1.Final.jar" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/lib/hibernate-core-5.1.1.Final.jar" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/hibernate-core-5.4.1.Final.jar" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+    <ignored path="../Hibernate_name_query/target/classes/hibernate.cfg.xml" />
+    <ignored path="../Hibernate2/src/main/java/hibernate.cfg.xml" />
+    <ignored path="../maven_logj4/target/classes/hibernate.cfg.xml" />
+    <ignored path="../mymaven18/target/classes/hibernate.cfg.xml" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/classes/hibernate.cfg.xml" />
+    <ignored path="../Inheritance_hibernate/target/classes/hibernate.cfg.xml" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/classes/hibernate.cfg.xml" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/classes/hibernate.cfg.xml" />
+    <ignored path="../Annotation_Hibernate_Inheritance/target/classes/hibernate.cfg.xml" />
+    <ignored path="../Annotation_Hibernate_Inheritance/target/classes/resources/hibernate.cfg.xml" />
+    <ignored path="../Hibernate_Collection/target/classes/hibernate.cfg.xml" />
+    <ignored path="../hibernate_joinedsubclass/target/classes/hibernate.cfg.xml" />
+    <ignored path="../AnnotationHibernate/target/classes/hibernate.cfg.xml" />
+    <ignored path="../Hibernate_name_xml/target/classes/hibernate.cfg.xml" />
+    <ignored path="../Hibernate_name_xml/src/main/resources/hibernate.cfg.xml" />
+    <ignored path="../Hibernate_ManyToOne/target/classes/hibernate.cfg.xml" />
+    <ignored path="../Hibernate2/Hibernate2.iws" />
+    <ignored path="../Hibernate_Collection/target/Hibernate_Collection-1.0-S-1.0.jar" />
+    <ignored path="../Hibernate_Collection/Hibernate_Collection.iws" />
+    <ignored path="../hibernate_joinedsubclass/target/hibernate_joined-subclass-1.0-SV-1.0.jar" />
+    <ignored path="../hibernate_joinedsubclass/hibernate_joinedsubclass.iws" />
+    <ignored path="../Hibernate_ManyToOne/target/Hibernate_ManyToOne-1.0-S-v1.jar" />
+    <ignored path="../Hibernate_ManyToOne/Hibernate_ManyToOne.iws" />
+    <ignored path="../Hibernate_name_query/target/Hibernate_name_query-1.0-S-v1.jar" />
+    <ignored path="../Hibernate_name_query/Hibernate_name_query.iws" />
+    <ignored path="../Hibernate_name_xml/target/Hibernate_name_xml-1.0-SNAPSHOT.jar" />
+    <ignored path="../Hibernate_name_xml/Hibernate_name_xml.iml" />
+    <ignored path="../Hibernate_name_xml/Hibernate_name_xml.ipr" />
+    <ignored path="../Hibernate_name_xml/Hibernate_name_xml.iws" />
+    <ignored path="../HibernateAnnotation_withoutSpring/HibernateAnnotation_withoutSpring.iws" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/classes/cn/hncu/hib/HibernateSessionFactory.class" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/classes/cn/hncu/hib/HibernateSessionFactory.class" />
+    <ignored path="../myhibernateWeb/target/classes/cn/hncu/hib/HibernateSessionFactory.class" />
+    <ignored path="../myhibernateWeb/src/main/java/cn/hncu/hib/HibernateSessionFactory.java" />
+    <ignored path="../testServlet/out/artifacts/testServlet_war_exploded.war/index.jsp" />
+    <ignored path="../testServlet/web/index.jsp" />
+    <ignored path="../myhibernateWeb/WebRoot/index.jsp" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/index.jsp" />
+    <ignored path="../mymaven18/target/mymaven1.8/index.jsp" />
+    <ignored path="../hello/out/artifacts/hello_war_exploded.war/index.jsp" />
+    <ignored path="../Inheritance_hibernate/target/Inheritance_hibernate-1.0-S-v1.jar" />
+    <ignored path="../Inheritance_hibernate/Inheritance_hibernate.iws" />
+    <ignored path="../Hibernate_ManyToOne/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+    <ignored path="../maven_logj4/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <ignored path="../Inheritance_hibernate/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <ignored path="../maven_logj4/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+    <ignored path="../Inheritance_hibernate/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+    <ignored path="../mymaven18/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <ignored path="../Hibernate_Collection/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <ignored path="../Hibernate_ManyToOne/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <ignored path="../Annotation_Hibernate_Inheritance/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <ignored path="../SpringWithHibernate/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <ignored path="../SpringWithHibernate/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+    <ignored path="../hibernate_joinedsubclass/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <ignored path="../AnnotationHibernate/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+    <ignored path="../AnnotationHibernate/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <ignored path="../Hibernate_name_xml/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+    <ignored path="../Hibernate_name_xml/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <ignored path="../Hibernate_name_query/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <ignored path="../Hibernate_name_query/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/lib/jandex-2.0.0.Final.jar" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/lib/jandex-2.0.0.Final.jar" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/jandex-2.0.5.Final.jar" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/lib/javassist-3.20.0-GA.jar" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/lib/javassist-3.20.0-GA.jar" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/javassist-3.24.0-GA.jar" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/javax.activation-api-1.2.0.jar" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/javax.persistence-api-2.2.jar" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/jaxb-api-2.3.1.jar" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/jaxb-runtime-2.3.1.jar" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/lib/jsp-api.jar" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/lib/jsp-api.jar" />
+    <ignored path="../maven_logj4/target/classes/log4j.properties" />
+    <ignored path="../maven_logj4/target/classes/com/log4j.xml" />
+    <ignored path="../Test/out/production/Test/com/lct/Main.class" />
+    <ignored path="../Hibernate_name_query/target/classes/com/lct/MainAPP.class" />
+    <ignored path="../Hibernate_Collection/target/classes/com/lct/MainApp.class" />
+    <ignored path="../Annotation_Hibernate_Inheritance/target/classes/com/lct/MainApp.class" />
+    <ignored path="../SpringWithHibernate/target/classes/com/lct/MainApp.class" />
+    <ignored path="../hibernate_joinedsubclass/target/classes/com/lct/MainApp.class" />
+    <ignored path="../AnnotationHibernate/target/classes/com/lct/MainApp.class" />
+    <ignored path="../Hibernate2/src/main/java/com/lct/MainApp.java" />
+    <ignored path="../Hibernate_Collection/target/classes/com/lct/MainApp2.class" />
+    <ignored path="../Hibernate_ManyToOne/target/classes/com/lct/MainSaveData.class" />
+    <ignored path="../Hibernate_name_xml/target/classes/com/lct/MainSelcet.class" />
+    <ignored path="../Hibernate_name_xml/src/main/java/com/lct/MainSelcet.java" />
+    <ignored path="../AnnotationHibernate/target/classes/com/lct/MainSelect.class" />
+    <ignored path="../Hibernate_ManyToOne/target/classes/com/lct/MainSelectData.class" />
+    <ignored path="../mymaven18/target/mymaven1.8/META-INF/MANIFEST.MF" />
+    <ignored path="../myhibernateWeb/WebRoot/META-INF/MANIFEST.MF" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/META-INF/MANIFEST.MF" />
+    <ignored path="../Maven_Hiberate_web/.idea/Maven_Hiberate_web.iml" />
+    <ignored path="../maven_logj4/target/maven_logj4-1.0-s-1.jar" />
+    <ignored path="../maven_logj4/maven_logj4.iws" />
+    <ignored path="../hibernate_joinedsubclass/target/classes/com/lct/Member.class" />
+    <ignored path="../hibernate_joinedsubclass/target/classes/member.hbm.xml" />
+    <ignored path="../Maven_Hiberate_web/.idea/misc.xml" />
+    <ignored path="../Test/.idea/misc.xml" />
+    <ignored path="../Maven_Hiberate_web/.idea/modules.xml" />
+    <ignored path="../Test/.idea/modules.xml" />
+    <ignored path="../myhibernateWeb/myhibernateWeb.iml" />
+    <ignored path="../myhibernateWeb/myhibernateWeb.ipr" />
+    <ignored path="../myhibernateWeb/myhibernateWeb.iws" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/classes/META-INF/myhibernateWeb.kotlin_module" />
+    <ignored path="../myhibernateWeb/target/classes/META-INF/myhibernateWeb.kotlin_module" />
+    <ignored path="../mymaven18/target/mymaven1.8.war" />
+    <ignored path="../mymaven18/mymaven18.iws" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.39-bin.jar" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.39-bin.jar" />
+    <ignored path="../Hibernate_name_query/target/maven-archiver/pom.properties" />
+    <ignored path="../Inheritance_hibernate/target/maven-archiver/pom.properties" />
+    <ignored path="../Hibernate_Collection/target/maven-archiver/pom.properties" />
+    <ignored path="../Annotation_Hibernate_Inheritance/target/maven-archiver/pom.properties" />
+    <ignored path="../SpringWithHibernate/target/maven-archiver/pom.properties" />
+    <ignored path="../maven_logj4/target/maven-archiver/pom.properties" />
+    <ignored path="../hibernate_joinedsubclass/target/maven-archiver/pom.properties" />
+    <ignored path="../AnnotationHibernate/target/maven-archiver/pom.properties" />
+    <ignored path="../mymaven18/target/maven-archiver/pom.properties" />
+    <ignored path="../Hibernate_name_xml/target/maven-archiver/pom.properties" />
+    <ignored path="../Hibernate_ManyToOne/target/maven-archiver/pom.properties" />
+    <ignored path="../myhibernateWeb/pom.xml" />
+    <ignored path="../Hibernate_name_xml/pom.xml" />
+    <ignored path="../Hibernate_Collection/target/classes/com/lct/Question.class" />
+    <ignored path="../Hibernate_Collection/target/classes/question.hbm.xml" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/classes/com/lct/Register.class" />
+    <ignored path="../mymaven18/target/mymaven1.8/register.jsp" />
+    <ignored path="../hibernate_joinedsubclass/target/classes/com/lct/Regular_Member.class" />
+    <ignored path="../Inheritance_hibernate/target/classes/com/lct/Regular_Stuff.class" />
+    <ignored path="../Annotation_Hibernate_Inheritance/target/classes/com/lct/Regular_Stuff.class" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/lib/servlet-api.jar" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/lib/servlet-api.jar" />
+    <ignored path="../SpringWithHibernate/target/SpringWithHibernate-1.0-S-v1.jar" />
+    <ignored path="../SpringWithHibernate/SpringWithHibernate.iws" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/stax-ex-1.8.jar" />
+    <ignored path="../maven_logj4/target/classes/com/lct/StoreData.class" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/classes/cn/hncu/domain/Student.class" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/classes/cn/hncu/domain/Student.class" />
+    <ignored path="../myhibernateWeb/target/classes/cn/hncu/domain/Student.class" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/classes/cn/hncu/domain/Student.hbm.xml" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/classes/cn/hncu/domain/Student.hbm.xml" />
+    <ignored path="../myhibernateWeb/src/main/java/cn/hncu/domain/Student.hbm.xml" />
+    <ignored path="../myhibernateWeb/src/main/java/cn/hncu/domain/Student.java" />
+    <ignored path="../Inheritance_hibernate/target/classes/com/lct/Stuff.class" />
+    <ignored path="../Annotation_Hibernate_Inheritance/target/classes/com/lct/Stuff.class" />
+    <ignored path="../Inheritance_hibernate/target/classes/com/lct/Stuff.hbm.xml" />
+    <ignored path="../Inheritance_hibernate/target/surefire-reports/TEST-com.lct.AppTest.xml" />
+    <ignored path="../maven_logj4/target/surefire-reports/TEST-com.lct.AppTest.xml" />
+    <ignored path="../testServlet/out/production/testServlet/Test.class" />
+    <ignored path="../testServlet/out/artifacts/testServlet_war_exploded.war/WEB-INF/classes/Test.class" />
+    <ignored path="../Test/Test.iml" />
+    <ignored path="../testServlet/out/artifacts/testServlet_war_exploded.war/WEB-INF/classes/Test.java" />
+    <ignored path="../testServlet/web/WEB-INF/classes/Test.java" />
+    <ignored path="../testServlet/testServlet.iml" />
+    <ignored path="../testServlet/testServlet.ipr" />
+    <ignored path="../testServlet/testServlet.iws" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/lib/txw2-2.3.1.jar" />
+    <ignored path="../Test/.idea/uiDesigner.xml" />
+    <ignored path="../mymaven18/target/classes/com/lct/User.class" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/classes/com/lct/User.class" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/classes/com/lct/User.hbm.xml" />
+    <ignored path="../mymaven18/target/classes/com/lct/UserDao.class" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/classes/com/lct/UserDao.class" />
+    <ignored path="../Maven_Hiberate_web/.idea/vcs.xml" />
+    <ignored path="../Test/.idea/vcs.xml" />
+    <ignored path="../testServlet/out/artifacts/testServlet_war_exploded.war/WEB-INF/web.xml" />
+    <ignored path="../mymaven18/target/mymaven1.8/WEB-INF/web.xml" />
+    <ignored path="../testServlet/web/WEB-INF/web.xml" />
+    <ignored path="../myhibernateWeb/WebRoot/WEB-INF/web.xml" />
+    <ignored path="../myhibernateWeb/out/artifacts/myhibernateWeb_war_exploded/WEB-INF/web.xml" />
+    <ignored path="../hello/out/artifacts/hello_war_exploded.war/WEB-INF/web.xml" />
+    <ignored path="../Maven_Hiberate_web/.idea/workspace.xml" />
+    <ignored path="../Test/.idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lct/Calculation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-197">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lct/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lct/Calculation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lct/MainApp.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\Maven\repo" />
+        <option name="mavenHome" value="D:/Program Files/Maven" />
+        <option name="userSettingsFile" value="D:\Program Files\Maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="dedicatedModuleDir" value="E:\workspace\ideaWorkspace" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="runMavenInBackground" value="false" />
+    <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="645" />
+    <option name="height" value="519" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552119054198" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lct.MainApp" />
+      <module name="VariableInSpEL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c1d13dc-6f1f-46b9-bf46-8be0ca137b69" name="Default Changelist" comment="" />
+      <created>1552096261082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552096261082</updated>
+      <workItem from="1552096262681" duration="3720000" />
+    </task>
+    <task id="LOCAL-00001" summary="StandardEvaluationContext这个Spring对象的应用">
+      <created>1552097881476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552097881476</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3720000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24948876" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.32935154" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32935154" />
+      <window_info anchor="bottom" id="Messages" weight="0.32935154" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32935154" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Remote Host" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="StandardEvaluationContext这个Spring对象的应用" />
+    <option name="LAST_COMMIT_MESSAGE" value="StandardEvaluationContext这个Spring对象的应用" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Maven/repo/org/springframework/spring-expression/5.1.5.RELEASE/spring-expression-5.1.5.RELEASE-sources.jar!/org/springframework/expression/spel/support/StandardEvaluationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="106" column="15" lean-forward="true" selection-start-line="106" selection-start-column="15" selection-end-line="106" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Maven/repo/org/springframework/spring-expression/5.1.5.RELEASE/spring-expression-5.1.5.RELEASE-sources.jar!/org/springframework/expression/ExpressionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lct/Calculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/HTML-JavaScript.html.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/spring-beans-2.0.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="640" column="34" selection-start-line="640" selection-start-column="34" selection-end-line="640" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lct/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>@types/angular</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>bak</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20134228" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
+    <setting name="isActivated" value="false" />
+  </component>
+</project>
