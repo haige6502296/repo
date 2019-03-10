@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--<bean name="dataS" class="org.apache.commons.dbcp2.BasicDataSource">-->
+    <bean name="dataS" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/employee?useSSL=false"/>
+        <property name="username" value="root"/>
+        <property name="password" value="catv.com"/>
+    </bean>
+
+    <bean id="factory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataS"/>
+        <property name="mappingResources">
+            <list>
+                <value>employee.hbm.xml</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+<!--因为spring接管，所以下面key里的属性必须选有hibernate-->
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL57Dialect</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.connection.autocommit">true</prop>
+            </props>
+        </property>
+    </bean>
+
+
+    <bean id="htp" class="org.springframework.orm.hibernate5.HibernateTemplate">
+        <property name="sessionFactory" ref="factory"/>
+        <property name="checkWriteOperations" value="false"/>
+    </bean>
+
+
+    <bean id="dao" class="com.lct.EmployeeDao">
+        <property name="htp" ref="htp"/>
+    </bean>
+
+</beans>
