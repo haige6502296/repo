@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.lct.Stuff" table="stuff" discriminator-value="stuff">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <discriminator column="type"/>
+        <property name="name"/>
+
+        <subclass name="com.lct.Contract_Stuff" discriminator-value="con_stuff">
+            <property name="pay_per_hour"/>
+            <property name="contract_duration"/>
+        </subclass>
+
+
+        <subclass name="com.lct.Regular_Stuff" discriminator-value="reg_stuff">
+            <property name="salary"/>
+            <property name="bonus"/>
+        </subclass>
+    </class>
+</hibernate-mapping>
