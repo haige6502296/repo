@@ -10,18 +10,18 @@ public class App{
 
         @RequestMapping("/hello")
         //read the provided form data
-        public String display(@RequestParam("name") String name, @RequestParam("pass") String pass, Model m)
+        public String display(@RequestParam("name") String name_define, @RequestParam("pass") String pass_define, Model m)
         {
-            if(pass.equals("admin"))
+            if(pass_define.equals("admin"))
             {
-                String msg="Hello "+ name;
+                String msg="Hello "+ name_define;
                 //add a message to the model
                 m.addAttribute("message", msg);
                 return "viewpage";
             }
             else
             {
-                String msg="Sorry "+ name+". You entered an incorrect password";
+                String msg="Sorry "+ name_define+". You entered an incorrect password";
                 m.addAttribute("message", msg);
                 return "errorpage";
             }
