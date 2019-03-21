@@ -26,7 +26,7 @@ public class EmpDao {
     String sql = "delete from emp99 where id=" + id + ";";
     return jtp.update(sql);
   }
-
+//查询出Emp对象
   public Emp select(int id) {
     String sql = "select * from emp99 where id=?";//不指定id值
 //    return jtp.update(sql);
@@ -48,10 +48,14 @@ public class EmpDao {
       }
     });
   }*/
+
+//  查询对象的属性，实际和上面的jtp.queryForObject()方法有关联的，没有上面的方法，程序无法正常运行
   public List<Emp> getEmployees() {
     String sql = "select * from Emp99";
     return jtp.query(sql, (rs, rowNum) -> {
       Emp e = new Emp();
+
+//将数据库的数据附加在Emp类的e对象的属性上面
       e.setId(rs.getInt(1));
       e.setName(rs.getString(2));
       e.setSalary(rs.getFloat(3));
