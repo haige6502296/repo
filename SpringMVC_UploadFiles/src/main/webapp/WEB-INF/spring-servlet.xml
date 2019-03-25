@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+    <!-- Provide support for component scanning -->
+    <context:component-scan base-package="com.lct"/>
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+    <!--必须在target下面创建一个imges的空目录，不然target不会创建这个文件夹，为什么可以在maven的pom.xml里增加配置
+    <plugin>
+              <artifactId>maven-war-plugin</artifactId>
+              <version>3.2.2</version>
+              <Maven默认将项目打包成war不会打包空目录，因此下面这个configuration配置不能少，否则会提示找不到路径,上面这个插件版本必须大于等于2.4>
+        <configuration>
+            <includeEmptyDirectories>true</includeEmptyDirectories>
+        </configuration>
+
+    </plugin>
+
+
+    -->
+</beans>
