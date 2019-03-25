@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Image File Upload</title>
+    <title>图片文件上传</title>
 </head>
 <body>
 <h1>File Upload Example - Com.lct</h1>
