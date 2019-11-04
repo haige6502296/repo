@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>测试</title>
+
+<!--<script type="text/javascript">
+        function getcube(number){
+            alert(number*number*number);
+        }
+
+    </script>-->
+   <!--     <script>
+        var a=40;
+        var b=2;
+        var c=a>>b;//It adds values of a and b variable
+        document.write(c);//prints c
+    </script>
+    <script>
+        var a=10;
+        if(a>5){
+            document.write("javascript is very usefull!")
+        }
+    </script>-->
+<!--    <script>
+        var grade='B';
+        var result;
+        switch(grade){
+            case 'A':
+                result="A Grade";
+                break;
+            case 'B':
+                result="B Grade";
+                break;
+            case 'C':
+                result="C Grade";
+                break;
+            default:
+                result="No Grade";
+        }
+        document.write(result);
+    </script>-->
+<!--    <script>
+        var grade='B';
+        var result;
+        switch(grade){
+            case 'A':
+                result+=" A Grade&#45;&#45;";
+                break;
+            case 'B':
+                result+=" B Grade&#45;&#45;";
+                break;
+            case 'C':
+                result+=" C Grade&#45;&#45;";
+                break;
+            default:
+                result+=" No Grade&#45;&#45;";
+        }
+        document.write(result);
+    </script>-->
+<!--    <script>
+        for(i=1;i<=5;i++){
+            document.write(i+"<br/>")
+        }
+    </script>-->
+<!--    <script>
+        var i=11;
+        while (i<=15){
+            document.write(i+"<br/>");
+            i++;
+        }
+    </script>-->
+<!--     <script>
+         function getInfo() {
+             return "Hello,JavaScript! How R Y!"
+         }
+     </script>
+    <script>
+        document.write(getInfo());
+    </script>-->
+</head>
+<body>
+<p>Welcome to JavaScript!</p>
+<!--<script>
+    var pow=new Function("num1","num2","return Math.pow(num1,num2)");
+    document.writeln(pow(2,4));
+</script>-->
+
+<!--
+<script>
+    emp={id:102,name:"Kumar",Salary:4000};//字符串要引起来
+    document.write(emp.id+" "+emp.name+" "+emp.Salary);
+</script>
+-->
+
+<!--
+<script>
+    function Employee(firstName,lastName)
+    {
+        this.firstName=firstName;
+        this.lastName=lastName;
+    }
+
+    Employee.prototype.fullName=function()
+    {
+        return this.firstName+" "+this.lastName;
+    }
+
+    var employee1=new Employee("Martin","Roy");
+    var employee2=new Employee("Duke", "William");
+    document.writeln(employee1.fullName()+"<br>");
+    document.writeln(employee2.fullName());
+</script>
+-->
+
+<!--<form >
+    <input type="button" value="带参数调用函数"  onclick="getcube(4)">
+</form>-->
+
+
+
+<!--
+<script>
+    function Employee(firstName,lastName)
+    {
+        this.firstName=firstName;
+        this.lastName=lastName;
+    }
+
+    Employee.prototype.company="Lao Cable TV";
+
+    let employee1 = new Employee("Martin", "Roy");
+    let employee2 = new Employee("Duke", "William");
+    document.writeln(employee1.firstName+" "+employee1.lastName+" "+employee1.company+"<br>");
+    document.writeln(employee2.firstName+" "+employee2.lastName+" "+employee2.company);
+</script>
+-->
+
+<!--<script>
+    class Employee_X {
+        constructor() {
+            this.id=101;
+            this.name = "Martin Roy";
+        }
+    }
+    let emp = new Employee_X();
+    document.writeln(emp.id+" "+emp.name);
+</script>-->
+
+<!--super keywords-->
+<script>
+    class CompanyName
+    {
+        constructor()
+        {
+            this.company="LaoCable";
+        }
+    }
+    class Employee extends CompanyName {
+        constructor(id,name) {
+            super();
+            this.id=id;
+            this.name=name;
+        }
+    }
+    let emp = new Employee(1,"John");
+    document.writeln(emp.id+" "+emp.name+" "+emp.company);
+</script>
+
+
+</body>
+</html>
