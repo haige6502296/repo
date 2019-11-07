@@ -1,0 +1,4 @@
+#
+#Wed Mar 13 09:54:19 ICT 2019
+com.lct.HelloController2=org.springframework.stereotype.Component
+com.lct.HelloController1=org.springframework.stereotype.Component
