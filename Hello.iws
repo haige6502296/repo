@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92fddbc5-e751-4e40-b419-1a80c294bdd6" name="Default Changelist" comment="" />
+    <list default="true" id="92fddbc5-e751-4e40-b419-1a80c294bdd6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Hello.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lct/TestStudent4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lct/TestStudent4.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +151,7 @@
       <workItem from="1573581468455" duration="797000" />
       <workItem from="1573665055736" duration="1510000" />
       <workItem from="1573666597821" duration="837000" />
-      <workItem from="1573667463503" duration="799000" />
+      <workItem from="1573667463503" duration="1427000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1573667659212</created>
@@ -157,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573667659212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test Git">
+      <created>1573668271447</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573668271447</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
