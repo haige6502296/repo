@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="880507b8-6b2b-4a7e-8ebe-47a1b938bbed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaLearning/src/BasicKnowledge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot/SpringBoot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot/SpringBoot.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot/SpringBoot.iws" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/img/010.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/img/011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/Dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/A.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/A.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/windows.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/array.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb.iws" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.iws" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +84,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="nele.options" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -162,7 +152,7 @@
       <workItem from="1573465415642" duration="3293000" />
       <workItem from="1573550066372" duration="794000" />
       <workItem from="1573551549886" duration="1898000" />
-      <workItem from="1573627521907" duration="8693000" />
+      <workItem from="1573627521907" duration="9898000" />
     </task>
     <task id="LOCAL-00001" summary="javascript tutorial">
       <created>1572854577528</created>
@@ -185,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573109849464</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="javascript tutorial">
+      <created>1573692916503</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573692916503</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">

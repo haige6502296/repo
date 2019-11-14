@@ -1,6 +1,6 @@
 /*
 Created: amau
-Date: 2019-11-03 0003
+Date: 2019-11-03
 Time: 19:00
 */
 /*let array=["Banana", "a", "Apple", "Mango", "Kiwi", "Papaya","bbb","ccc","ddd","xxx"];
