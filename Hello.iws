@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92fddbc5-e751-4e40-b419-1a80c294bdd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lct/Anonymous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lct/TestEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lct/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lct/StaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lct/Student6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hello.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.iws" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,13 +80,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Anonymous">
+  <component name="RunManager" selected="Application.StaticTest2">
     <configuration name="Anonymous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lct.Anonymous" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lct.*" />
+          <option name="PATTERN" value="com.lct.StaticTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,8 +94,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lct.Student" />
+    <configuration name="BankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lct.BankAccount" />
+      <module name="Hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lct.StaticTest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lct.StaticTest" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lct.Test" />
+    <configuration name="StaticTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lct.StaticTest2" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
@@ -118,25 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lct.TestEmployee" />
+    <configuration name="Student6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lct.Student6" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStudent4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lct.TestStudent4" />
-      <module name="Hello" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lct.*" />
+          <option name="PATTERN" value="com.lct.StaticTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticTest2" />
+        <item itemvalue="Application.StaticTest" />
+        <item itemvalue="Application.Student6" />
+        <item itemvalue="Application.BankAccount" />
         <item itemvalue="Application.Anonymous" />
-        <item itemvalue="Application.TestEmployee" />
-        <item itemvalue="Application.TestStudent4" />
-        <item itemvalue="Application.Student" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +170,8 @@
       <workItem from="1573581468455" duration="797000" />
       <workItem from="1573665055736" duration="1510000" />
       <workItem from="1573666597821" duration="837000" />
-      <workItem from="1573667463503" duration="5493000" />
+      <workItem from="1573667463503" duration="5516000" />
+      <workItem from="1573733067376" duration="5136000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1573667659212</created>
@@ -191,11 +194,29 @@
       <option name="project" value="LOCAL" />
       <updated>1573669025848</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test Git">
+      <created>1573672986800</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573672986800</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test Git" />
