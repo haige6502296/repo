@@ -1,19 +1,32 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
         "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
-<head>
-    <title>Title</title>
 
-        <script type="text/javascript">
+<head>
+    <meta content="text/html" http-equiv="Content-Type" charset="UTF-8">
+    <title>javascript</title>
+
+<!--        <script type="text/javascript">
             function msg(){
                 alert("Hello Javascript");
             }
-        </script>
+        </script>-->
 </head>
 <body>
-<p>Welcome to JavaScript!</p>
+<!--<p>Welcome to JavaScript!</p>
 <form >
     <input type="button" value="按钮"  onclick="msg()">
-</form>
+</form>-->
+
+<script type="text/javascript">
+    let emp_address={
+        fullAddress:function () {
+            return this.aaa+" "+this.bbb+" "+this.ccc;
+        }
+    };
+    let address={aaa:"lao cable TV",bbb:"Vientiane",ccc:"up"};
+    document.writeln(emp_address.fullAddress.call(address));
+    document.writeln(emp_address.fullAddress.apply(address));
+</script>
 </body>
 </html>

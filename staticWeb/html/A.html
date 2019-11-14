@@ -323,13 +323,11 @@ document.writeln("<br/>navigator.onLine: "+navigator.onLine);
 
     function show_Comments_Form() {
         if (flag) {
-
-
             document.getElementById("my_location").innerHTML = "Name:<input type='text' name='name'><br>Comments:<br><textarea rows='5' cols='80'></textarea>" +
                 "<br><input type='submit' value='post comment'>";
             flag=false;
         }else {
-            document.getElementById("my_location").innerHTML =""
+            document.getElementById("my_location").innerHTML ="";
             flag=true;
         }
     }
@@ -340,7 +338,7 @@ document.writeln("<br/>navigator.onLine: "+navigator.onLine);
     <div id="my_location"></div>
 </form>-->
 <!--======================-->
-<script>
+<!--<script>
     function validate(){
         let msg;
         if(document.myForm.userPass.value.length>5){
@@ -356,8 +354,157 @@ document.writeln("<br/>navigator.onLine: "+navigator.onLine);
     }
 </script>
 <form name="myForm">
-    <input type="password" value="" name="userPass" onkeyup="validate()">
-Strength:<span id="mylocation">no strength</span>
+    <label>
+        <input type="password" value="" name="userPass" onkeyup="validate()">
+    </label>
+    Strength:<span id="mylocation">no strength</span>
+</form>-->
+<!--========================-->
+
+<!--<script>
+function validation() {
+    let user=document.register_f.xxx.value;
+    let password=document.register_f.password.value;
+    if(user==null||user===""){
+      alert("用户名不能为空！");
+
+        return false;
+    }else if(password.length<6){
+        alert("密码长度不小于6位！");
+        return false;
+    }
+}
+</script>
+
+
+<form name="register_f" method="post" action="index.html" onsubmit="return validation()">
+    Name:
+    <label>
+        <input name="xxx" type="text"><span id="prompt_user"></span>
+    </label><br/>
+    Password:
+    <label>
+        <input name="password" type="password"><span id="prompt_password"></span>
+    </label><br/>
+    <input type="submit" value="register">
+</form>-->
+
+
+<!--
+验证输入框是否是数字
+<script>
+    function validate() {
+        let num = document.my_form.numbers.value;
+        if (isNaN(num)) {
+           document.getElementById("numloc").innerText="请输入一个数字！";
+           return false;
+        }else {
+            return true;
+        }
+    }
+</script>
+
+
+<form name="my_form" onsubmit="return validate()">
+    <label>
+        <input type="text" name="numbers">
+    </label>
+    <span id="numloc"></span><br/>
+    <input type="submit" value="提交">
 </form>
+-->
+<!--============-->
+<!--validate-->
+<!--<script>
+    function validate() {
+        let name = document.f1.name.value;
+        let password = document.f1.password.value;
+        let status = false;
+
+        if (name.length < 1) {
+            document.getElementById("nameloc").innerHTML =
+                " <img src='img/010.gif' alt='wrong'/> Please enter your name";
+            status = false;
+        } else {
+            document.getElementById("nameloc").innerHTML = " <img src='img/011.png' alt='ok'/>";
+            status = true;
+        }
+        if (password.length < 6) {
+            document.getElementById("passwordloc").innerHTML =
+                " <img src='img/010.gif' alt='wrong'/> Password must be at least 6 char long";
+            status = false;
+        } else {
+            document.getElementById("passwordloc").innerHTML = " <img src='img/011.png' alt='ok'/>";
+        }
+        return status;
+    }
+</script>
+
+<form name="f1" action="#" onsubmit="return validate()">
+    <table>
+
+        <tr>
+            <td>Enter Name:</td>
+            <td>
+                <label>
+                    <input type="text" name="name"/>
+                </label>
+                <span id="nameloc"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Enter Password:</td>
+            <td>
+                <label>
+                    <input type="password" name="password"/>
+                </label>
+                <span id="passwordloc"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><input type="submit" value="register"/></td>
+        </tr>
+
+    </table>
+</form>-->
+
+<!--======================================================-->
+<!--<script>
+    function validate_Email() {
+        let email = document.my_form.email.value;
+        let at_position = email.indexOf("@");
+        let dot_position = email.lastIndexOf(".");
+        if (at_position < 1 || dot_position < at_position + 2 || dot_position + 2 >= email.length) {
+            alert("Please enter a valid e-mail address! \n at_position:"+at_position+"\n dot_position:"+dot_position);
+            return false;
+        }
+    }
+</script>
+<form name="my_form" action="#" method="post" onsubmit="return validate_Email()">
+    Enter your E-mail address:
+
+    <label>
+        <input name="email" type="text">
+    </label>
+
+    <input type="submit" value="register">
+</form>-->
+
+
+<!--about this keywords-->
+
+<!--<script>
+    let address = {
+        company: "CableTV",
+        city: "Vientiane", state: "up", fullAddress: function () {
+            return this.company + " " + this.city + " " + this.state;
+        }
+    };
+    let fetch=address.fullAddress();
+    document.writeln(fetch);
+
+</script>-->
 </body>
 </html>
