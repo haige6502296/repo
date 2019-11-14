@@ -16,7 +16,7 @@
 <!--<p>Welcome to JavaScript!</p>
 <form >
     <input type="button" value="按钮"  onclick="msg()">
-</form>-->
+</form>
 
 <script type="text/javascript">
     let emp_address={
@@ -27,6 +27,37 @@
     let address={aaa:"lao cable TV",bbb:"Vientiane",ccc:"up"};
     document.writeln(emp_address.fullAddress.call(address));
     document.writeln(emp_address.fullAddress.apply(address));
+</script>-->
+<!--===================-->
+<!--
+<script type="text/javascript">
+let lang="java";
+
+    function lang_name(call)
+    {
+
+        call();
+    };
+
+    var obj={
+
+        lang:"JavaScript",
+        language:function()
+        {
+            document.writeln(this.lang+ " is a popular programming language.");
+        }
+    };
+    lang_name(obj.language);
+    lang_name(obj.language.bind(obj));
+</script>
+-->
+<script type="text/javascript">
+    x = 10;
+    y = 15;
+    z = x + y;
+    debugger;
+    document.write(z);
+    document.write(a);
 </script>
 </body>
 </html>

@@ -3,6 +3,7 @@ Created: amau
 Date: 2019-11-04 0004
 Time: 13:50
 */
+/*
 let day = new Date().getDay();
 let x;
 switch (day) {
@@ -31,3 +32,4 @@ switch (day) {
         x = "I don't know what day it is today!";
 }
 console.log(x);
+*/

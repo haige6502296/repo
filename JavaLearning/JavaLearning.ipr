@@ -1,54 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/html/index.html" charset="UTF-8" />
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
     <file url="PROJECT" charset="UTF-8" />
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
       <option name="myName" value="Project Default" />
-      <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
-        <option name="myValues">
-          <value>
-            <list size="1">
-              <item index="0" class="java.lang.String" itemvalue="charset" />
-            </list>
-          </value>
-        </option>
-        <option name="myCustomValuesEnabled" value="true" />
-      </inspection_tool>
-      <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
-        <option name="myValues">
-          <value>
-            <list size="7">
-              <item index="0" class="java.lang.String" itemvalue="nobr" />
-              <item index="1" class="java.lang.String" itemvalue="noembed" />
-              <item index="2" class="java.lang.String" itemvalue="comment" />
-              <item index="3" class="java.lang.String" itemvalue="noscript" />
-              <item index="4" class="java.lang.String" itemvalue="embed" />
-              <item index="5" class="java.lang.String" itemvalue="script" />
-              <item index="6" class="java.lang.String" itemvalue="properties" />
-            </list>
-          </value>
-        </option>
-        <option name="myCustomValuesEnabled" value="true" />
-      </inspection_tool>
     </profile>
     <version value="1.0" />
   </component>
-  <component name="JavaScriptSettings">
-    <option name="languageLevel" value="ES6" />
-  </component>
   <component name="ProjectCodeStyleConfiguration">
     <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default" />
-  </component>
-  <component name="ProjectDictionaryState">
-    <dictionary name="amau">
-      <words>
-        <w>amau</w>
-      </words>
-    </dictionary>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -108,10 +71,10 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/staticWeb.iml" filepath="$PROJECT_DIR$/staticWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaLearning.iml" filepath="$PROJECT_DIR$/JavaLearning.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="PublishConfigData" autoUpload="Always" createEmptyFolders="true" filePermissions="420" folderPermissions="493">
