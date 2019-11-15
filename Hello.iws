@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92fddbc5-e751-4e40-b419-1a80c294bdd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/agrregation/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/agrregation/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inheritance/Inheritance1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/static_/StaticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/this_/This1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/this_/This2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/this_/This3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/this_/This4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/this_/This5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/this_/This6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/this_/This7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hello.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lct/StaticTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lct/StaticTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello/com/lct/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello/com/lct/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lct/Anonymous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/others/Anonymous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lct/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/others/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lct/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/others/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lct/StaticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/static_/StaticTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lct/StaticTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/static_/StaticTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lct/Student6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/constructor/Student6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lct/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/others/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +82,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -77,13 +96,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StaticTest2">
-    <configuration name="Anonymous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lct.Anonymous" />
+  <component name="RunManager" selected="Application.Emp">
+    <configuration name="Emp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.agrregation.Emp" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lct.StaticTest" />
+          <option name="PATTERN" value="com.agrregation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lct.BankAccount" />
+    <configuration name="Inheritance1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.inheritance.Inheritance1" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lct.StaticTest" />
+          <option name="PATTERN" value="com.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lct.StaticTest" />
+    <configuration name="This3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.this_.This3" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lct.*" />
+          <option name="PATTERN" value="com.this_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lct.StaticTest2" />
+    <configuration name="This5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.this_.This5" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lct.*" />
+          <option name="PATTERN" value="com.this_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lct.Student6" />
+    <configuration name="This7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.this_.This7" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lct.StaticTest" />
+          <option name="PATTERN" value="com.this_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticTest2" />
-        <item itemvalue="Application.StaticTest" />
-        <item itemvalue="Application.Student6" />
-        <item itemvalue="Application.BankAccount" />
-        <item itemvalue="Application.Anonymous" />
+        <item itemvalue="Application.Emp" />
+        <item itemvalue="Application.Inheritance1" />
+        <item itemvalue="Application.This7" />
+        <item itemvalue="Application.This5" />
+        <item itemvalue="Application.This3" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +188,7 @@
       <workItem from="1573666597821" duration="837000" />
       <workItem from="1573667463503" duration="5516000" />
       <workItem from="1573733067376" duration="6032000" />
+      <workItem from="1573822482083" duration="13842000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1573667659212</created>
@@ -205,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573749955508</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="static keywords">
+      <created>1573822643254</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573822643254</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +243,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

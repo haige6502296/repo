@@ -5,7 +5,7 @@ Time:2019-11-14 23:10:43
 Detail:overloading,copy
 */
 
-package com.lct;
+package com.constructor;
 
 public class Student6 {
   int id;

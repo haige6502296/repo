@@ -1,4 +1,4 @@
-package com.lct;
+package com.others;
 
 import java.util.Scanner;
 

@@ -5,7 +5,7 @@ Time:2019-11-14 19:11:46
 Detail:
 */
 
-package com.lct;
+package com.others;
 
 class Account {
   private int id;
