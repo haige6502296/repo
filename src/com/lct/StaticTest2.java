@@ -16,8 +16,8 @@ public class StaticTest2 {
   }
 
   public static void main(String[] args) {
-    StaticTest2 s1 = new StaticTest2();
-    StaticTest2 s2 = new StaticTest2();
-    StaticTest2 s3 = new StaticTest2();
+    new StaticTest2();
+    new StaticTest2();
+    new StaticTest2();
   }
 }

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92fddbc5-e751-4e40-b419-1a80c294bdd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lct/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lct/StaticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lct/Student6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hello.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lct/StaticTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lct/StaticTest2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +168,7 @@
       <workItem from="1573665055736" duration="1510000" />
       <workItem from="1573666597821" duration="837000" />
       <workItem from="1573667463503" duration="5516000" />
-      <workItem from="1573733067376" duration="5136000" />
+      <workItem from="1573733067376" duration="6032000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1573667659212</created>
@@ -201,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573672986800</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="static keywords">
+      <created>1573749955508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573749955508</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +224,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test Git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Git" />
+    <MESSAGE value="static keywords" />
+    <option name="LAST_COMMIT_MESSAGE" value="static keywords" />
   </component>
 </project>
