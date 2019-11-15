@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="880507b8-6b2b-4a7e-8ebe-47a1b938bbed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Hello2/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello2/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello2/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello2/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello2/Hello2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello2/src/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloWorld/HelloWorld.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaLearning/JavaLearning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaLearning/JavaLearning.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCModel/SpringMVCModel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/help.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HEHE/.idea/libraries/javafx_sdk_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/swich.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/swich.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticWeb.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/help.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/object.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/object.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.iws" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.iws" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,7 +85,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="nele.options" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -122,11 +104,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.help.js">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="Dom.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/Dom.js" working-dir="$PROJECT_DIR$/js">
+  <component name="RunManager" selected="Node.js.object.js">
+    <configuration name="array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/array.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
     <configuration name="debugss.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/debugss.js" working-dir="$PROJECT_DIR$/js">
@@ -135,16 +114,19 @@
     <configuration name="help.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/help.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
+    <configuration name="object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/object.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
     <configuration name="swich.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/swich.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.object.js" />
+        <item itemvalue="Node.js.array.js" />
         <item itemvalue="Node.js.help.js" />
         <item itemvalue="Node.js.debugss.js" />
         <item itemvalue="Node.js.swich.js" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Node.js.Dom.js" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +155,8 @@
       <workItem from="1573551549886" duration="1898000" />
       <workItem from="1573627521907" duration="9933000" />
       <workItem from="1573695121180" duration="3244000" />
+      <workItem from="1573724025517" duration="14770000" />
+      <workItem from="1573811976370" duration="2261000" />
     </task>
     <task id="LOCAL-00001" summary="javascript tutorial">
       <created>1572854577528</created>

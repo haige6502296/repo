@@ -15,6 +15,13 @@ let arr=["AngularJS","Node.js","JQuery","Bootstrap"];
 let result=arr.copyWithin(3,0,1);
 console.log(result);*/
 
-let array1=["ax","b","android"];
+/*let array1=["ax","b","android"];
 let array2=array1.concat("mx","cc","yy");
-console.log(array2);
+console.log(array2);*/
+var array1 = ["javascript","Core java","Advanced java"];
+var iterator1 = array1.entries();
+console.log(iterator1.next().value);
+// expected output: Array [0, "javaTpoint"]
+console.log(iterator1.next().value);
+// expected output: Array [1, "Core java"]
+console.log(iterator1.next().value);

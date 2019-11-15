@@ -124,6 +124,7 @@ console.log('Is rect an instance of Shape?',
 rect.move(1, 1); // Outputs, 'Shape moved.'
 */
 
+/*
 let person = {
     fullName: function () {
         return this.firstName + " " + this.lastName;
@@ -137,4 +138,148 @@ let person2 = {
     firstName: "Steven",
     lastName:"Jobs",
 };
-console.log(person.fullName.call(person2));
+console.log(person.fullName.call(person2));*/
+/*=================*/
+/*
+function emp(id,name,salary){
+    this.id=id;
+    this.name=name;
+    this.salary=salary;
+
+    this.changeSalary=changeSalary;
+    function changeSalary(otherSalary){
+        this.salary=otherSalary;
+    }
+}
+e=new emp(103,"Sonoo Jaiswal",30000);
+console.log(e.id+" "+e.name+" "+e.salary);
+e.changeSalary(45000);
+console.log(e.id+" "+e.name+" "+e.salary);*/
+
+/*==============*/
+/*"use strict";*/
+/*
+const object1 = {};
+let property1;
+Object.defineProperty(object1, 'property1', {
+    value: 42,
+    value: 542,
+    value: 528,
+});
+/!*object1.property1 = 177;*!/
+// throws an error in strict mode  
+console.log(object1.property1); */
+
+/*===========*/
+/*
+var obj = { prop: function() {}, name: 'charry',test:function () {} };
+console.log(obj);
+obj.name = 'karri';
+delete obj.prop;
+console.log(obj);
+var o = Object.freeze(obj);
+obj.name = 'chris';
+console.log(obj);*/
+
+/*==========*/
+/*
+const object1 = {
+    property1: 42,
+    property2:78,
+};
+const object2 = {
+    property2: 34
+};
+const descriptors1=Object.getOwnPropertyDescriptors(object1);
+const descriptor1 = Object.getOwnPropertyDescriptor(object1, 'property1');
+const descriptor1_2 = Object.getOwnPropertyDescriptor(object1, 'property2');
+const descriptor2 = Object.getOwnPropertyDescriptor(object2, 'property2');
+console.log(descriptor1);
+console.log(descriptor1.enumerable);
+console.log(descriptor1_2.enumerable);
+console.log(descriptor2.enumerable);
+console.log(descriptor1.value);
+console.log(descriptor1_2.value+"descriptor1_2.value");
+console.log(descriptor2.value);
+console.log(descriptors1);
+
+console.log((descriptors1.property1.value === object1.property1));
+console.log(descriptors1.property1+"descriptors1.property1");
+console.log(object1.property1);*/
+/*===============*/
+
+/*
+const object1 = {
+    property2:78,
+    property1: 42,
+
+};
+const object2 = {
+    property2: 34
+};
+const names1=Object.getOwnPropertyNames(object1);
+const names2=Object.getOwnPropertyNames(object2);
+console.log(names1);
+console.log(names2);
+console.log(names1.sort());*/
+/*=========*/
+
+/*var obj = { 0: 'a', 1: 'b', 2: 'c' };
+console.log(Object.getOwnPropertyNames(obj).sort()); // logs '0,1,2'
+
+// Logging property names and values using Array.forEach
+
+Object.getOwnPropertyNames(obj).forEach(function(val, idx, array) {
+    console.log(val + ' -> ' + obj[val]);
+
+}); */
+
+/*
+let arr = ["aa", "xx", "m", "zzz",];
+
+arr.forEach(function (element) {
+    console.log(element);
+});*/
+
+//forEach（function(item,index,array)),对指定数组的每一个元素执行一次函数操作，item表示数组的值，index表示索引，array指当前数组
+/*
+let arr = [1, 2, 3, 4];
+let sum = 0;
+arr.forEach(function (item, index, array) {
+    sum += item;
+    console.log(`索引：${index}.值：${item}.数组：${array}`);
+    console.log(`数组元素之和为:${sum}.`);
+});
+*/
+
+function Pasta(grain, size, shipe,staly) {
+    this.grain = grain;
+    this.size = size;
+    this.shipe = shipe;
+    this.staly=staly;
+}
+
+let spaghetti = new Pasta("wheat", 2, "circle","from");
+
+
+let names_s = Object.getOwnPropertyNames(spaghetti).filter(CheckKey);
+let names_i = Object.getOwnPropertyNames(spaghetti).filter(CheackIfThereIsNo_i);
+
+console.log(names_s);
+console.log(names_i);
+// Check whether the first character of a string is 's'.
+/**
+ * @return {boolean}
+ */
+function CheckKey(value) {
+    let firstChar = value.substr(0, 1);
+    return firstChar.toLowerCase() === 's';
+}
+
+/**
+ * @return {boolean}
+ */
+function CheackIfThereIsNo_i(value) {
+    let if_i=value.substr(0);
+    return if_i.indexOf("i")>0;//判断数组元素内是否包含i这个字母
+}
