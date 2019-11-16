@@ -252,6 +252,7 @@ arr.forEach(function (item, index, array) {
 });
 */
 
+/*
 function Pasta(grain, size, shipe,staly) {
     this.grain = grain;
     this.size = size;
@@ -268,18 +269,83 @@ let names_i = Object.getOwnPropertyNames(spaghetti).filter(CheackIfThereIsNo_i);
 console.log(names_s);
 console.log(names_i);
 // Check whether the first character of a string is 's'.
-/**
+/!**
  * @return {boolean}
- */
+ *!/
 function CheckKey(value) {
     let firstChar = value.substr(0, 1);
     return firstChar.toLowerCase() === 's';
 }
 
-/**
+/!**
  * @return {boolean}
- */
+ *!/
 function CheackIfThereIsNo_i(value) {
     let if_i=value.substr(0);
     return if_i.indexOf("i")>0;//判断数组元素内是否包含i这个字母
 }
+*/
+//以下示例创建一个原型，Tree，以及该类型的对象，即theTree。 然后打印theTree对象的constructor属性。
+/*function Tree(name) {
+    this.nam=name;
+}
+let theTree=new Tree("redwood");
+console.log("theTree.constructor is: "+theTree.constructor);*/
+
+/*"use stric";
+function Type(){}
+
+var types = [
+    new Array,
+    [],
+    new Boolean,
+    true,        // remains unchanged
+    false,
+    new Date,
+    new Error,
+    new Function,
+    function () {
+    },
+    Math,
+    new Number,
+    111,           // remains unchanged
+    new Object,
+    {},
+    new RegExp,
+    /(?:)/,
+    /\w+/,
+    new String,
+    "test"       // remains unchanged
+];
+
+for (var i = 0; i < types.length; i++) {
+    types[i].constructor = Type;
+    let boo=types[i] instanceof Type;
+    types[i] =[types[i].constructor, boo, types[i].toString()];
+}
+console.log(types.length);
+console.log(types.join("\n"));*/
+
+/*
+let animals={
+    eat:true,
+};
+let rabbit=Object.create(animals);
+
+console.log(Object.getPrototypeOf(rabbit)===animals);//get the prototype of rabbit
+let animals_change=Object.setPrototypeOf(rabbit,{a:1});
+console.log(Object.getPrototypeOf(rabbit));*/
+
+/*
+const obj1={p:1};
+/!*Object.seal(obj1);*!/
+console.log(Object.isSealed(obj1));
+/!*Object.preventExtensions(obj1);*!/
+console.log(Object.isExtensible(obj1));*/
+
+//被Object.seal后对象的属性不可写，但属性的值可以修改
+const obj1 = { property1: 'Marry'};
+const obj2 = Object.seal(obj1);
+// prevents other code from deleting properties of an object.
+obj2.property1 = 'carry';
+console.log(obj2.property1);

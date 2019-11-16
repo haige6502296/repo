@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="880507b8-6b2b-4a7e-8ebe-47a1b938bbed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/js/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/array.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/firstjquery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/jquery-3.4.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/A.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/A.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/defineProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/defineProperties.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/object.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/object.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.iws" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.iws" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML4 File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -74,21 +78,35 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="ToolWindowFind.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573550858049" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/download/SOURCE/js/jquery-3.4.1/jquery-3.4.1.js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="$USER_HOME$/AppData/Roaming/npm/node_modules/stylelint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.JSLint" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\ideaWorkspace\staticWeb\html\JQuery" />
       <recent name="E:\workspace\ideaWorkspace\staticWeb\html\img" />
     </key>
   </component>
@@ -104,29 +122,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.object.js">
+  <component name="RunManager" selected="JavaScript Debug.firstjquery.html">
+    <configuration name="A.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/A.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="firstjquery.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/firstjquery.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/array.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
-    <configuration name="debugss.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/debugss.js" working-dir="$PROJECT_DIR$/js">
-      <method v="2" />
-    </configuration>
-    <configuration name="help.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/help.js" working-dir="$PROJECT_DIR$/js">
+    <configuration name="defineProperties.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/defineProperties.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
     <configuration name="object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/object.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
-    <configuration name="swich.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/swich.js" working-dir="$PROJECT_DIR$/js">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.firstjquery.html" />
         <item itemvalue="Node.js.object.js" />
+        <item itemvalue="JavaScript Debug.A.html" />
+        <item itemvalue="Node.js.defineProperties.js" />
         <item itemvalue="Node.js.array.js" />
-        <item itemvalue="Node.js.help.js" />
-        <item itemvalue="Node.js.debugss.js" />
-        <item itemvalue="Node.js.swich.js" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +174,11 @@
       <workItem from="1573627521907" duration="9933000" />
       <workItem from="1573695121180" duration="3244000" />
       <workItem from="1573724025517" duration="14770000" />
-      <workItem from="1573811976370" duration="2261000" />
+      <workItem from="1573811976370" duration="19366000" />
+      <workItem from="1573894888072" duration="560000" />
+      <workItem from="1573895469533" duration="977000" />
+      <workItem from="1573896467312" duration="48000" />
+      <workItem from="1573896534744" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="javascript tutorial">
       <created>1572854577528</created>
@@ -193,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573694032212</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="javascript tutorial">
+      <created>1573814448656</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573814448656</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -237,80 +266,6 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArquillianSettingsConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>@types/angular</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>bak</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.20134228" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
     <setting name="isActivated" value="false" />
