@@ -8,20 +8,20 @@ Detail:overloading,copy
 package com.constructor;
 
 public class Student6 {
-  int id;
-  String name;
+  private int id;
+  private String name;
 
-  Student6(int id, String name) {
+  private Student6(int id, String name) {
     this.id = id;
     this.name = name;
   }
 
   //constructor to initialize another object
-  Student6(Student6 s) {
+  private Student6(Student6 s) {
     id = s.id;
     name = s.name;
   }
-  void display(){System.out.println(id+" "+name);}
+  private void display(){System.out.println(id+" "+name);}
   public static void main(String[] args) {
 Student6 student6=new Student6(103,"Arin");
 Student6 student61=new Student6(student6);
