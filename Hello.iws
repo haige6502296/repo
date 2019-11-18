@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92fddbc5-e751-4e40-b419-1a80c294bdd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Instance_initializer_block/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abstract_/Abstract1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abstract_/Abstract2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abstract_/Abstract3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/final_/FinalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/final_/FinalTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/instanceof_/InstanceofTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lct/Others.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lct/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lct/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/package_/PackageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/package_/PackageOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/package_/PackageTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/polymorphism/Polymorphism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/polymorphism/Polymorphism2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/polymorphism/bind/Bottle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/polymorphism/bind/PlasticBottle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/super_/TestSuper1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/super_/TestSuper2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/super_/TestSuper3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/super_/TestSuper4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/super_/TestSuper5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/setterandgetter/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hello.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello/com/lct/TestStudent4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello/com/lct/TestStudent4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/constructor/Student6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/constructor/Student6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lct/TestStudent4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lct/TestStudent4.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Others">
+  <component name="RunManager" selected="Application.Student">
     <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lct.B" />
       <module name="Hello" />
@@ -157,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.package_.PackageTwo" />
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.setterandgetter.Student" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.package_.*" />
+          <option name="PATTERN" value="com.setterandgetter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Student" />
         <item itemvalue="Application.Others" />
         <item itemvalue="Application.Outer" />
         <item itemvalue="Application.B" />
         <item itemvalue="Application.PackageInfo" />
-        <item itemvalue="Application.PackageTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +176,7 @@
       <workItem from="1573908880165" duration="13817000" />
       <workItem from="1573955618641" duration="2147000" />
       <workItem from="1573991679147" duration="7613000" />
-      <workItem from="1574076316818" duration="9773000" />
+      <workItem from="1574076316818" duration="13668000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1573667659212</created>
@@ -251,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573838503081</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="more java basic knowledge">
+      <created>1574096195244</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574096195245</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +257,8 @@
     <MESSAGE value="Test Git" />
     <MESSAGE value="static keywords" />
     <MESSAGE value="构造函数，匿名类，继承、聚合，this关键字，static关键字" />
-    <option name="LAST_COMMIT_MESSAGE" value="构造函数，匿名类，继承、聚合，this关键字，static关键字" />
+    <MESSAGE value="more java basic knowledge" />
+    <option name="LAST_COMMIT_MESSAGE" value="more java basic knowledge" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Hello$TestSuper2.ic" NAME="TestSuper2 Coverage Results" MODIFIED="1573917446064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
