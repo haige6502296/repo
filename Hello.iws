@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92fddbc5-e751-4e40-b419-1a80c294bdd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/setterandgetter/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hello.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.iws" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -176,7 +175,9 @@
       <workItem from="1573908880165" duration="13817000" />
       <workItem from="1573955618641" duration="2147000" />
       <workItem from="1573991679147" duration="7613000" />
-      <workItem from="1574076316818" duration="13668000" />
+      <workItem from="1574076316818" duration="13770000" />
+      <workItem from="1574102978035" duration="82000" />
+      <workItem from="1574164128885" duration="85000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1573667659212</created>
@@ -234,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574096195245</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="more java basic knowledge">
+      <created>1574102604807</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574102604807</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
