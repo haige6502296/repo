@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="880507b8-6b2b-4a7e-8ebe-47a1b938bbed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/JQuery/animate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/animation2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/fadeTo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/fadein.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/fadeout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/slideToggle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/slideUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/slidedown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/toggle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/animate3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/jqueryColor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/js/jquery-ui.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.iws" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.iws" afterDir="false" />
@@ -39,8 +33,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML4 File" />
-        <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -88,7 +83,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573550858049" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/html/JQuery" />
+    <property name="last_opened_file_path" value="E:/download/SOURCE/js/jquery-3.4.1/jquery-ui.js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -128,7 +124,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.animation2.html">
+  <component name="RunManager" selected="JavaScript Debug.animate3.html">
+    <configuration name="animate3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/animate3.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="animate.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/animate.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -141,16 +140,13 @@
     <configuration name="slideUp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/slideUp.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="slidedown.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/slidedown.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.animate3.html" />
         <item itemvalue="JavaScript Debug.animation2.html" />
         <item itemvalue="JavaScript Debug.animate.html" />
         <item itemvalue="JavaScript Debug.slideToggle.html" />
         <item itemvalue="JavaScript Debug.slideUp.html" />
-        <item itemvalue="JavaScript Debug.slidedown.html" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +181,7 @@
       <workItem from="1573895469533" duration="977000" />
       <workItem from="1573896467312" duration="48000" />
       <workItem from="1573896534744" duration="8584000" />
-      <workItem from="1574052983084" duration="20927000" />
+      <workItem from="1574052983084" duration="26433000" />
     </task>
     <task id="LOCAL-00001" summary="javascript tutorial">
       <created>1572854577528</created>
@@ -236,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573896915232</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="javascript tutorial">
+      <created>1574145869469</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574145869469</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">

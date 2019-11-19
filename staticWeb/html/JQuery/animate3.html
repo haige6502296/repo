@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animation3</title>
+    <script src="jquery-3.4.1.js"></script>
+    <script>
+        $(function () {
+            $("button").click(function () {
+                $("#square").animate({
+                    width: "toggle"
+                });
+            })
+        })
+    </script>
+</head>
+<body>
+<button>Start Animation</button>
+<p>A simple animation example</p>
+<div id="square" style="width: 80px;height: 80px;background-color: pink;position: absolute"></div>
+</body>
+</html>

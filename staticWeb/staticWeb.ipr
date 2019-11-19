@@ -41,7 +41,7 @@
   </component>
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$/html/JQuery/firstjquery.html" libraries="{Node.js Core, browser}" />
-    <file url="PROJECT" libraries="{@types/jquery, jquery-3.4.1}" />
+    <file url="PROJECT" libraries="{@types/jquery, jQuery-ui, jquery-3.4.1}" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
