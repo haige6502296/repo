@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>slideToggle</title>
+    <script src="jquery-3.4.1.js"></script>
+    <script>
+        $(function () {
+            $("#p1").click(function () {
+                $("#p2").slideToggle("slow");
+            })
+        })
+    </script>
+    <style>
+        #p1, #p2 {
+            margin: auto;
+            padding: auto;
+            width: 80%;
+            font-family: "隶书",fantasy;
+            color: yellow;
+            font-size: 1cm;
+            background-color: lightslategray;
+            border: solid 1px #c3c3c3;
+        }
+
+        #p1 {
+            font-size: 2cm;
+            font-family: 华文琥珀,fantasy;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        #p2 {
+            display: none;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h2 id="p1">我是一名光荣的少先队员</h2>
+<p id="p2">床前明月光，<br>疑是地上霜。<br>
+    举头望明月，<br>低头思故乡。
+</p>
+</body>
+</html>

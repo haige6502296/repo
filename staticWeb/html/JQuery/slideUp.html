@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天哈哈</title>
+    <script src="jquery-3.4.1.js"></script>
+    <script>
+        $(function () {
+            $("#div1").mouseover(function () {
+                $("#div2").slideDown("fast");
+            });
+            $("#div2").mouseout(function () {
+                            $("#div2").slideUp("slow");
+                        });
+        })
+    </script>
+    <style>
+        #div1, #div2{
+            margin: 0 auto;
+            padding: 0 auto;
+            width: 80%;
+            text-align: left;
+            background-color: wheat;
+            border: solid 1px black;
+        }
+
+        #div1 {
+            cursor: pointer;
+            text-align: center;
+        }
+
+        #div2{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="div1"><h2>聊天</h2></div>
+<div id="div2"><h3><B style="color: blue">阿哥：</B>你想我不？</h3></div>
+
+</body>
+</html>

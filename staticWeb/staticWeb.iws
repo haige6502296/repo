@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="880507b8-6b2b-4a7e-8ebe-47a1b938bbed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/JQuery/firstjquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/A.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/A.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/defineProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/defineProperties.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/object.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/animate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/animation2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/fadeTo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/fadein.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/fadeout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/slideToggle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/slideUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/slidedown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/toggle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.iws" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.iws" afterDir="false" />
@@ -78,12 +82,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="ToolWindowAnt.ShowToolbar" value="false" />
     <property name="ToolWindowFind.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573550858049" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
-    <property name="last_opened_file_path" value="E:/download/SOURCE/js/jquery-3.4.1/jquery-3.4.1.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/html/JQuery" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -102,7 +107,8 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.JSLint" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -122,29 +128,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.firstjquery.html">
-    <configuration name="A.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/A.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.animation2.html">
+    <configuration name="animate.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/animate.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="firstjquery.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/firstjquery.html" useBuiltInWebServerPort="true">
+    <configuration name="animation2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/animation2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/array.js" working-dir="$PROJECT_DIR$/js">
+    <configuration name="slideToggle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/slideToggle.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="defineProperties.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/defineProperties.js" working-dir="$PROJECT_DIR$/js">
+    <configuration name="slideUp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/slideUp.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/object.js" working-dir="$PROJECT_DIR$/js">
+    <configuration name="slidedown.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/slidedown.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.firstjquery.html" />
-        <item itemvalue="Node.js.object.js" />
-        <item itemvalue="JavaScript Debug.A.html" />
-        <item itemvalue="Node.js.defineProperties.js" />
-        <item itemvalue="Node.js.array.js" />
+        <item itemvalue="JavaScript Debug.animation2.html" />
+        <item itemvalue="JavaScript Debug.animate.html" />
+        <item itemvalue="JavaScript Debug.slideToggle.html" />
+        <item itemvalue="JavaScript Debug.slideUp.html" />
+        <item itemvalue="JavaScript Debug.slidedown.html" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +184,8 @@
       <workItem from="1573894888072" duration="560000" />
       <workItem from="1573895469533" duration="977000" />
       <workItem from="1573896467312" duration="48000" />
-      <workItem from="1573896534744" duration="117000" />
+      <workItem from="1573896534744" duration="8584000" />
+      <workItem from="1574052983084" duration="20927000" />
     </task>
     <task id="LOCAL-00001" summary="javascript tutorial">
       <created>1572854577528</created>
@@ -222,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573814448656</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="javascript tutorial">
+      <created>1573896915232</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573896915232</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -262,10 +276,6 @@
       </path>
     </expand>
     <select />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
     <setting name="isActivated" value="false" />

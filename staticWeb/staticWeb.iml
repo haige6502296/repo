@@ -4,9 +4,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="shcoreandbrush" level="application" />
-    <orderEntry type="library" name="lazysizes" level="application" />
     <orderEntry type="library" name="browser" level="application" />
     <orderEntry type="library" name="jquery-3.4.1" level="application" />
+    <orderEntry type="library" name="@types/jquery" level="application" />
   </component>
 </module>

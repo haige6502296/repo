@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fade out</title>
+<script src="jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#div1").fadeToggle();
+                $("#div2").fadeToggle("slow");
+                $("#div3").fadeToggle(3000)
+            })
+        })
+    </script>
+</head>
+<body>
+<P>See the fadeOut() method example with different parameters</P>
+<button>click to fade out boxes</button>
+<div id="div1" style="width:80px;height: 80px;background-color: red;"></div><br>
+<div id="div2" style="width:80px;height: 80px;background-color: blue;"></div><br>
+<div id="div3" style="width:80px;height: 80px;background-color: green;"></div>
+</body>
+</html>
