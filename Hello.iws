@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92fddbc5-e751-4e40-b419-1a80c294bdd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/Math/MathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/callByValue/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/string/Print_a_z_And_A_Z.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/string/StringTest_charAt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hello.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Hello.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/setterandgetter/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/setterandgetter/Student.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +73,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -79,13 +87,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Student">
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lct.B" />
+  <component name="RunManager" selected="Application.StringTest_charAt">
+    <configuration name="MathTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Math.MathTest" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lct.*" />
+          <option name="PATTERN" value="com.Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Others" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lct.Others" />
+    <configuration name="Operation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.callByValue.Operation" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lct.*" />
+          <option name="PATTERN" value="com.callByValue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lct.Outer" />
+    <configuration name="Print_a_z_And_A_Z" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.string.Print_a_z_And_A_Z" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lct.*" />
+          <option name="PATTERN" value="com.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.package_.PackageInfo" />
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recursion.Recursion" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.package_.*" />
+          <option name="PATTERN" value="com.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.setterandgetter.Student" />
+    <configuration name="StringTest_charAt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.string.StringTest_charAt" />
       <module name="Hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.setterandgetter.*" />
+          <option name="PATTERN" value="com.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Student" />
-        <item itemvalue="Application.Others" />
-        <item itemvalue="Application.Outer" />
-        <item itemvalue="Application.B" />
-        <item itemvalue="Application.PackageInfo" />
+        <item itemvalue="Application.StringTest_charAt" />
+        <item itemvalue="Application.Print_a_z_And_A_Z" />
+        <item itemvalue="Application.Operation" />
+        <item itemvalue="Application.Recursion" />
+        <item itemvalue="Application.MathTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +186,11 @@
       <workItem from="1574076316818" duration="13770000" />
       <workItem from="1574102978035" duration="82000" />
       <workItem from="1574164128885" duration="85000" />
+      <workItem from="1574174892555" duration="7118000" />
+      <workItem from="1574184364947" duration="1604000" />
+      <workItem from="1574243339344" duration="8000" />
+      <workItem from="1574250845940" duration="13385000" />
+      <workItem from="1574346670498" duration="8911000" />
     </task>
     <task id="LOCAL-00001" summary="Test Git">
       <created>1573667659212</created>
@@ -242,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574102604807</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="more java basic knowledge">
+      <created>1574174953142</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574174953142</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
