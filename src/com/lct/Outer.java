@@ -1,5 +1,5 @@
 /*
-Usage:如何访问嵌套类
+Usage:如何访问嵌套类,内部类属于嵌套类的一种，非静态的嵌套类叫作内部类
 Author:Amaru
 Time:2019-11-18 22:20:04
 Detail:
@@ -7,7 +7,7 @@ Detail:
 
 package com.lct;
 
-class Outer {
+public class Outer {
   private int x = 10;
 
   class Inner {

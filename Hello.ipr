@@ -196,7 +196,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Hello.iml" filepath="$PROJECT_DIR$/Hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BasicJava.iml" filepath="$PROJECT_DIR$/BasicJava.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8.0_231" project-jdk-type="JavaSDK">

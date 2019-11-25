@@ -10,6 +10,25 @@ package com.string;
 class StringTest_charAt {
 
   public static void main(String[] args) {
+    String s1 = new String("hello");
+    System.out.println("s1的哈希："+s1.hashCode());
+    String s2 = "hello";
+    System.out.println("s2的哈希："+s2.hashCode());
+    String s3 = s1.intern();//returns string from pool, now it will be same as s2
+    System.out.println("aa");
+    System.out.println((s1 == s2)+"adf");//false be/**/cause reference variables are pointing to different instance
+    System.out.println("equals:"+s1.equals(s2));
+    System.out.println(s2 == s3);//true because reference variables are pointing to same instance
+
+
+
+    /*
+    String s = "hello";
+    String s1 = "hello";
+
+    System.out.println(s1.startsWith("he"));
+    System.out.println(s.substring(0, 3)+s.substring(4));
+*/
 
 
 
