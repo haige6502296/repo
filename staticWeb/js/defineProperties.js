@@ -110,9 +110,11 @@ console.log(JSON.stringify(ob1));//只有ob1.b.m改变了，没有影响ob3.b.m
 console.log(JSON.stringify(ob3));*/
 
 //合并对象
+/*
 const ob1={a:0};
 const ob2={b:2};
 const ob3={c:5};
+
 const ob_target={};
 
 const o=Object.assign(ob_target,ob1,ob2,ob3);
@@ -121,4 +123,7 @@ console.log(JSON.stringify(ob_target));//目标对象自身也会变化
 console.log(JSON.stringify(ob1));
 console.log(JSON.stringify(ob2));
 console.log(JSON.stringify(ob3));
-console.log(JSON.stringify(o));
+console.log(JSON.stringify(o));*/
+
+
+let express=require("express");

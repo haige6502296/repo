@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>valMethod</title>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <style>
+        p{
+            background-color: black;
+            color: #ffffff;
+            margin: 8px;
+            width: 500px;
+        }
+        b{
+            color: burlywood;
+        }
+        #selectOne{
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+<label for="selectOne"></label>
+<select id="selectOne">
+    <option>lesson one</option>
+    <option>lesson two</option>
+    <option>lesson three</option>
+</select>
+<label for="multiple"></label>
+<select id="multiple" multiple="multiple">
+    <option selected="selected">Multiple</option>
+    <option>Multiple2</option>
+    <option selected="selected">Multiple3</option>
+</select>
+<p></p>
+<script>
+    function display_value_from_selectElement() {
+        let content=$("#selectOne").val();
+        let multipleValues=$("#multiple").val()||[];
+        $("p").html("<b>value:</b>"+content+"<br><b>multipleValue:</b>"+multipleValues.join(","));
+    }
+    $("select").on("change",display_value_from_selectElement);//此处代码表示无论单选还是多选，只要默认值被选择，则<p>内容就会被方法加上去。
+    display_value_from_selectElement();
+</script>
+</body>
+</html>

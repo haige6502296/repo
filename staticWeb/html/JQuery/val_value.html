@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>val_value</title>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+    $(function () {
+        $("button").on("click",function () {
+            $("input:text").val("hello,how is it going");
+        })
+    })
+    </script>
+</head>
+<body>
+<button>click me show the text of the  default input value</button>
+<p>Name:
+    <label id="input">
+        <input type="text" name="user" placeholder="please enter some information">
+    </label>
+</p>
+</body>
+</html>

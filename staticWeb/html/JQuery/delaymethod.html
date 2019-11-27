@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>delay demonstrate</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(function () {
+            $("button").on("click",function () {
+                $("#div1").delay("slow").fadeIn();
+            })
+        })
+    </script>
+</head>
+<body>
+<h2>delay() method</h2>
+<button>Click me!</button>
+<div id="div1" style="width: 80px;height: 80px;display: none;background-color: black"></div>
+</body>
+</html>

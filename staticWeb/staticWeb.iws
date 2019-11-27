@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="880507b8-6b2b-4a7e-8ebe-47a1b938bbed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/JQuery/animate3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/jqueryColor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/Before.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/HTMLjquer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/cssMethod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/delaymethod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/showValue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/textMethod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/val_value.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-recommended/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-recommended/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-recommended/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-recommended/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-recommended/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-standard/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-standard/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-standard/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-standard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-standard/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/JQuery/slideUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/JQuery/slideUp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/JQuery/toggle.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/JQuery/toggle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Dom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/defineProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/defineProperties.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.iws" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.iws" afterDir="false" />
@@ -33,14 +53,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML4 File" />
-        <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="package.json" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -75,6 +101,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="ToolWindowAnt.ShowToolbar" value="false" />
@@ -83,7 +110,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573550858049" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
-    <property name="last_opened_file_path" value="E:/download/SOURCE/js/jquery-3.4.1/jquery-ui.js" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/node_modules/stylelint" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -92,7 +120,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="D:/Program Files/nodejs/node" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.jscs" value="" />
     <property name="node.js.selected.package.standard" value="" />
@@ -103,10 +131,13 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="Stylelint" />
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\ideaWorkspace\staticWeb\html\JQuery" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\ideaWorkspace\staticWeb\html\JQuery" />
       <recent name="E:\workspace\ideaWorkspace\staticWeb\html\img" />
@@ -124,29 +155,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.animate3.html">
-    <configuration name="animate3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/animate3.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.Before.html">
+    <configuration name="Before.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/Before.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="animate.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/animate.html" useBuiltInWebServerPort="true">
+    <configuration name="cssMethod.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/cssMethod.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="animation2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/animation2.html" useBuiltInWebServerPort="true">
+    <configuration name="fadeout.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/fadeout.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="slideToggle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/slideToggle.html" useBuiltInWebServerPort="true">
+    <configuration name="showValue.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/showValue.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="slideUp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/slideUp.html" useBuiltInWebServerPort="true">
+    <configuration name="val_value.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/val_value.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.animate3.html" />
-        <item itemvalue="JavaScript Debug.animation2.html" />
-        <item itemvalue="JavaScript Debug.animate.html" />
-        <item itemvalue="JavaScript Debug.slideToggle.html" />
-        <item itemvalue="JavaScript Debug.slideUp.html" />
+        <item itemvalue="JavaScript Debug.Before.html" />
+        <item itemvalue="JavaScript Debug.cssMethod.html" />
+        <item itemvalue="JavaScript Debug.val_value.html" />
+        <item itemvalue="JavaScript Debug.showValue.html" />
+        <item itemvalue="JavaScript Debug.fadeout.html" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +212,21 @@
       <workItem from="1573895469533" duration="977000" />
       <workItem from="1573896467312" duration="48000" />
       <workItem from="1573896534744" duration="8584000" />
-      <workItem from="1574052983084" duration="26433000" />
+      <workItem from="1574052983084" duration="31940000" />
+      <workItem from="1574222085562" duration="639000" />
+      <workItem from="1574222758199" duration="256000" />
+      <workItem from="1574223035369" duration="1076000" />
+      <workItem from="1574224404057" duration="1160000" />
+      <workItem from="1574233987310" duration="789000" />
+      <workItem from="1574236357046" duration="2366000" />
+      <workItem from="1574238748083" duration="1216000" />
+      <workItem from="1574242394703" duration="278000" />
+      <workItem from="1574243520565" duration="1845000" />
+      <workItem from="1574388754659" duration="14941000" />
+      <workItem from="1574497624068" duration="295000" />
+      <workItem from="1574497949441" duration="372000" />
+      <workItem from="1574498348525" duration="320000" />
+      <workItem from="1574816082531" duration="2296000" />
     </task>
     <task id="LOCAL-00001" summary="javascript tutorial">
       <created>1572854577528</created>
@@ -239,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574145869469</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="javascript tutorial">
+      <created>1574159504035</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574159504035</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -268,6 +320,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="javascript tutorial" />
     <option name="LAST_COMMIT_MESSAGE" value="javascript tutorial" />
   </component>

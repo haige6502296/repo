@@ -4,9 +4,12 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/jquery-animate-scroll" level="application" />
+    <orderEntry type="library" name="@types/express" level="application" />
     <orderEntry type="library" name="browser" level="application" />
     <orderEntry type="library" name="jquery-3.4.1" level="application" />
-    <orderEntry type="library" name="@types/jquery" level="application" />
-    <orderEntry type="library" name="jQuery-ui" level="application" />
+    <orderEntry type="library" name="@types/angular" level="application" />
+    <orderEntry type="library" name="@types/jquery.color" level="application" />
+    <orderEntry type="library" name="@types/jquery-tags-input" level="application" />
   </component>
 </module>

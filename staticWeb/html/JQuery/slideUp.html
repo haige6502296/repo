@@ -6,10 +6,10 @@
     <script src="jquery-3.4.1.js"></script>
     <script>
         $(function () {
-            $("#div1").mouseover(function () {
+            $("#div1").on("mouseover",function () {
                 $("#div2").slideDown("fast");
             });
-            $("#div2").mouseout(function () {
+            $("#div2").on("mouseout",function () {
                             $("#div2").slideUp("slow");
                         });
         })

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>how to use text method by jquery</title>
+<style>
+    p{
+        color: blueviolet;
+        margin: 8px;
+    }
+    b{
+        color: red;
+    }
+</style>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+<p>Hello!<b>Lao cable TV</b></p>
+<button>click here</button>
+<p>nothing</p>
+<script>
+    let str=$("p:first").text();
+    $("button").on("click",function () {
+        $("p:last").html(str);
+        $("p:first").html("你好，我变了没有！");
+    })
+</script>
+</body>
+</html>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CssDialectMappings">
+    <file url="PROJECT" dialect="CLASSIC" />
+  </component>
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/html/index.html" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
@@ -8,6 +11,7 @@
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
       <option name="myName" value="Project Default" />
+      <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
       <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
         <option name="myValues">
           <value>
@@ -22,7 +26,7 @@
       <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
         <option name="myValues">
           <value>
-            <list size="8">
+            <list size="9">
               <item index="0" class="java.lang.String" itemvalue="nobr" />
               <item index="1" class="java.lang.String" itemvalue="noembed" />
               <item index="2" class="java.lang.String" itemvalue="comment" />
@@ -31,20 +35,139 @@
               <item index="5" class="java.lang.String" itemvalue="script" />
               <item index="6" class="java.lang.String" itemvalue="properties" />
               <item index="7" class="java.lang.String" itemvalue="style" />
+              <item index="8" class="java.lang.String" itemvalue="inupt" />
             </list>
           </value>
         </option>
         <option name="myCustomValuesEnabled" value="true" />
       </inspection_tool>
+      <inspection_tool class="JSHint" enabled="true" level="ERROR" enabled_by_default="true" />
     </profile>
     <version value="1.0" />
   </component>
+  <component name="JSHintConfiguration" version="2.10.2" use-config-file="false" use-custom-config-file="true">
+    <option asi="false" />
+    <option bitwise="true" />
+    <option boss="false" />
+    <option browser="true" />
+    <option browserify="true" />
+    <option camelcase="false" />
+    <option couch="true" />
+    <option curly="true" />
+    <option debug="false" />
+    <option devel="true" />
+    <option dojo="true" />
+    <option elision="false" />
+    <option enforceall="false" />
+    <option eqeqeq="true" />
+    <option eqnull="false" />
+    <option es3="false" />
+    <option es5="false" />
+    <option esnext="false" />
+    <option evil="false" />
+    <option expr="false" />
+    <option forin="true" />
+    <option freeze="false" />
+    <option funcscope="false" />
+    <option futurehostile="false" />
+    <option gcl="true" />
+    <option globalstrict="false" />
+    <option immed="false" />
+    <option iterator="false" />
+    <option jasmine="true" />
+    <option jquery="true" />
+    <option lastsemic="false" />
+    <option latedef="false" />
+    <option laxbreak="true" />
+    <option laxcomma="true" />
+    <option loopfunc="true" />
+    <option maxerr="50" />
+    <option mocha="true" />
+    <option module="true" />
+    <option mootools="true" />
+    <option moz="true" />
+    <option multistr="true" />
+    <option newcap="false" />
+    <option noarg="true" />
+    <option nocomma="false" />
+    <option node="true" />
+    <option noempty="true" />
+    <option nomen="true" />
+    <option nonbsp="false" />
+    <option nonew="true" />
+    <option nonstandard="true" />
+    <option notypeof="false" />
+    <option noyield="true" />
+    <option onevar="true" />
+    <option passfail="true" />
+    <option phantom="true" />
+    <option plusplus="false" />
+    <option proto="true" />
+    <option prototypejs="true" />
+    <option qunit="true" />
+    <option quotmark="false" />
+    <option rhino="true" />
+    <option scripturl="true" />
+    <option shadow="false" />
+    <option shelljs="true" />
+    <option singleGroups="false" />
+    <option smarttabs="true" />
+    <option strict="true" />
+    <option sub="true" />
+    <option supernew="true" />
+    <option trailing="true" />
+    <option typed="true" />
+    <option undef="true" />
+    <option unused="false" />
+    <option validthis="true" />
+    <option varstmt="false" />
+    <option white="true" />
+    <option withstmt="true" />
+    <option worker="true" />
+    <option wsh="true" />
+    <option yui="true" />
+  </component>
+  <component name="JSLintConfiguration" json="true">
+    <option bitwise="true" />
+    <option browser="true" />
+    <option couch="true" />
+    <option devel="true" />
+    <option es6="true" />
+    <option eval="true" />
+    <option for="true" />
+    <option maxerr="50" />
+    <option multivar="true" />
+    <option node="true" />
+    <option single="true" />
+    <option white="true" />
+  </component>
   <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$/html/JQuery/firstjquery.html" libraries="{Node.js Core, browser}" />
-    <file url="PROJECT" libraries="{@types/jquery, jQuery-ui, jquery-3.4.1}" />
+    <file url="PROJECT" libraries="{@types/angular, @types/express, @types/jquery-tags-input, @types/jquery.color, browser, jquery-3.4.1}" />
+    <includedPredefinedLibrary name="Node.js Core" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="PersistentConfig">
+    <option name="initConfig">
+      <map>
+        <entry key="initConfig">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoPackage" value="generator" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelPackage" value="generator" />
+              <option name="name" value="initConfig" />
+              <option name="overrideXML" value="true" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlPackage" value="generator" />
+            </Config>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="ProjectCodeStyleConfiguration">
     <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default" />
@@ -155,6 +278,13 @@
       <option name="name" value="dd305a2e-a94c-45d6-90f0-0381f8e3ac35" />
       <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
     </remote-repository>
+  </component>
+  <component name="StylelintConfiguration" allowJS="true" />
+  <component name="StylelintService">
+    <option name="executable" value="\stylelint.cmd" />
+  </component>
+  <component name="TemplateDataLanguageMappings">
+    <file url="PROJECT" dialect="CSS" />
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />

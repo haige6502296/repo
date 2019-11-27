@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>change the content</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(function () {
+            $("button").on("click",function () {
+                $("p.paragraph").html("Hello,<b style='background-color: crimson;font-family:华文隶书,sans-serif;" +
+                    "font-size: 2em'>I've already been changed</b>");
+            })
+        })
+    </script>
+</head>
+<body>
+<h2>click the button to change the content</h2>
+<button>click here to change the two paragraph!</button>
+<p class="paragraph">this is the first paragraph</p>
+<p class="paragraph">this is the second paragraph</p>
+</body>
+</html>

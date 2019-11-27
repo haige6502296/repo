@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cssMethod</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(function () {
+            $("button").on("click", function () {
+                alert("background color =" + $("p").css("background-color"));
+                $("p:last").css({"background-color": "yellow", "font-size": "200%"})
+            })
+        })
+    </script>
+</head>
+<body>
+<p style="background-color: red">This is the 1st paragraph</p>
+<p style="background-color: green">This is the 2nd paragraph</p>
+<p style="background-color: blue">This is the 3rd paragraph</p>
+<button>点击获取第一个匹配元素背景颜色的属性</button>
+</body>
+</html>
