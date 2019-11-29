@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>scrollTop</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(function () {
+            $("button").on("click",function () {
+                $("span").empty();
+                $("span.span").append("Hello,the vertical scrollbar position  is <b style='color: crimson;'>"+($("div").scrollTop()+"px</b >"));
+            })
+        })
+
+    </script>
+</head>
+<body>
+<div style="border:1px solid black;width:150px;height:100px;overflow:auto">
+    Twinkle, twinkle, little star,How I wonder what you are!
+    Up above the world so high, Like a diamond in the sky.
+    Twinkle, twinkle, little star, How I wonder what you are!</div><br>
+<span class="span"></span><br>
+<button>Return the vertical position of the scrollbar</button>
+<p>Move the scrollbar down and click the button again.</p>
+</body>
+</html>

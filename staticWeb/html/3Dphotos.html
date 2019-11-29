@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>hehe</title>
+    <style>
+        body {
+            background: black;
+        }
+        .container {
+            width: 200px;
+            height: 173.2px;
+            position: relative;
+            margin: 200px auto;
+            transform-style: preserve-3d;
+        }
+        .container div {
+            width: 200px;
+            height: 173.2px;
+            position: absolute;
+            clip-path: polygon(50% 0,100% 100%,0 100%);
+        }
+        .container div:nth-child(1) {
+            transform: rotateX(-70.5deg);
+            transform-origin: 0 100%;
+        }
+        .container div:nth-child(2) {
+            transform: rotate3d(100, -173.2, 0, 70.5deg);
+            transform-origin: 0 100%;
+        }
+        .container div:nth-child(3) {
+            transform: rotate3d(-100, -173.2, 0, -70.5deg);
+            transform-origin: 100% 100%;
+        }
+        .container div:nth-child(1) {
+            background-image:url("new/5.jpg");
+        }
+        .container div:nth-child(2) {
+            background-image:url("new/11.jpg");
+        }
+        .container div:nth-child(3) {
+            background-image:url("new/13.jpg");
+        }
+        .container div:nth-child(4) {
+            background-image:url("new/14.jpg");
+        }
+        @keyframes rotate {
+            from {
+                transform: rotate3d(1,1,1,0);
+            }
+            to {
+                transform: rotate3d(1,1,1,360deg);
+            }
+        }
+        .container {
+            animation: rotate 5s linear infinite;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+</body>
+</html>

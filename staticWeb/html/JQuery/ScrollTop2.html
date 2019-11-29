@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ScrollTop Example</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <style>
+        div.demo{
+            background: #7FFFD4 none repeat scroll 0 0;
+            border:3px solid #666;
+            margin: 5px;
+            padding: 5px;
+            position: relative;
+            width:150px;
+            height:200px;
+            overflow: auto;
+        }
+        p {
+            margin: 10px;
+            padding: 5px;
+            border: 10px solid rgb(255, 0, 0);
+            width: 1000px;
+            height: 1000px;
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+<div class="demo"><h1>Welcome to:</h1><p>javatpoint.com</p></div>
+<script>
+    $( "div.demo" ).scrollTop( 300 );//脚本的位置如果在<head>内scrollTop方法不生效
+</script>
+</body>
+</html>

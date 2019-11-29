@@ -1,0 +1,22 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>clone</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(function () {
+            $("button").on("click",function () {
+                $("h2").clone(true).appendTo("#here");
+            })
+        })
+    </script>
+</head>
+<body>
+<h2>hello,clone method,this text will be clone to the div id ="here"</h2>
+<button>click here to clone h2 content to id="here"</button>
+<div id="here">clone to here</div>
+</body>
+</html>

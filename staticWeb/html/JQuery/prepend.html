@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>prepend Method in jquery</title>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(function () {
+            $("#button_before_p").on("click",function () {
+                $("p").prepend("<b>pretended text</b>");
+            });
+            $("#button_before_li").on("click",function () {
+                $("li").prepend("<b style='color: crimson'>Hello,&lt;li&gt;</b>")
+            });
+            $("#button_before_all").on("click",function () {
+                $("ol").prepend("<li>prepend items</li>")
+            })
+        })
+    </script>
+</head>
+<body>
+<button id="button_before_p">prepended text</button>
+<button id="button_before_li">prepended item</button>
+<button id="button_before_all">prepended ol rewrite</button>
+<p>This is first paragraph</p>
+<p>This is second paragraph</p>
+<ol>
+    <li>item no.1</li>
+    <li>item no.2</li>
+    <li>item no.3</li>
+</ol>
+</body>
+</html>

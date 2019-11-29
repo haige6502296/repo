@@ -2,30 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="880507b8-6b2b-4a7e-8ebe-47a1b938bbed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/JQuery/Before.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/HTMLjquer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/css/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/cssMethod.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/delaymethod.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/showValue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/textMethod.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/val_value.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-recommended/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-recommended/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-recommended/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-recommended/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-recommended/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-standard/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-standard/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-standard/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-standard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylelint-config-standard/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/JQuery/slideUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/JQuery/slideUp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/JQuery/toggle.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/JQuery/toggle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/defineProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/defineProperties.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/3Dphotos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/HEHE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/ScrollTop2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/atrr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/clone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/img/good-morning.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/prepend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/remove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/JQuery/scrollTop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/myself.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/bgsong.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/bk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new/hehe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new1/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new1/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new1/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new1/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new1/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new1/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new1/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new1/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new1/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new1/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new1/bk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/new1/susu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/JQuery/HTMLjquer.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/JQuery/HTMLjquer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.iws" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.iws" afterDir="false" />
     </list>
@@ -111,7 +131,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573550858049" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/node_modules/stylelint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/html/JQuery/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -131,7 +151,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Stylelint" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -139,8 +159,11 @@
       <recent name="E:\workspace\ideaWorkspace\staticWeb\html\JQuery" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\ideaWorkspace\staticWeb\html\JQuery\img" />
+      <recent name="E:\workspace\ideaWorkspace\staticWeb\html\new1" />
+      <recent name="E:\workspace\ideaWorkspace\staticWeb\html" />
+      <recent name="E:\workspace\ideaWorkspace\staticWeb\html\new" />
       <recent name="E:\workspace\ideaWorkspace\staticWeb\html\JQuery" />
-      <recent name="E:\workspace\ideaWorkspace\staticWeb\html\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -155,29 +178,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Before.html">
-    <configuration name="Before.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/Before.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.atrr.html">
+    <configuration name="ScrollTop2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/ScrollTop2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="cssMethod.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/cssMethod.html" useBuiltInWebServerPort="true">
+    <configuration name="atrr.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/atrr.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="fadeout.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/fadeout.html" useBuiltInWebServerPort="true">
+    <configuration name="remove.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/remove.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="showValue.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/showValue.html" useBuiltInWebServerPort="true">
+    <configuration name="scrollTop.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/scrollTop.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="val_value.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/JQuery/val_value.html" useBuiltInWebServerPort="true">
+    <configuration name="susu.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/staticWeb/html/new1/susu.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Before.html" />
-        <item itemvalue="JavaScript Debug.cssMethod.html" />
-        <item itemvalue="JavaScript Debug.val_value.html" />
-        <item itemvalue="JavaScript Debug.showValue.html" />
-        <item itemvalue="JavaScript Debug.fadeout.html" />
+        <item itemvalue="JavaScript Debug.atrr.html" />
+        <item itemvalue="JavaScript Debug.ScrollTop2.html" />
+        <item itemvalue="JavaScript Debug.scrollTop.html" />
+        <item itemvalue="JavaScript Debug.remove.html" />
+        <item itemvalue="JavaScript Debug.susu.html" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +249,8 @@
       <workItem from="1574497624068" duration="295000" />
       <workItem from="1574497949441" duration="372000" />
       <workItem from="1574498348525" duration="320000" />
-      <workItem from="1574816082531" duration="2296000" />
+      <workItem from="1574816082531" duration="18897000" />
+      <workItem from="1575002352265" duration="13324000" />
     </task>
     <task id="LOCAL-00001" summary="javascript tutorial">
       <created>1572854577528</created>
@@ -291,7 +315,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574159504035</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="jquery tutorial">
+      <created>1574824290779</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574824290779</updated>
+    </task>
+    <task id="LOCAL-00011" summary="jquery tutorial">
+      <created>1574824325478</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574824325478</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -322,7 +360,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="javascript tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="javascript tutorial" />
+    <MESSAGE value="jquery tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="jquery tutorial" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

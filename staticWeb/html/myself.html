@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+    html{
+    font-size:62.5%;
+    }
+    img{
+    width:300px;
+    height:300px;
+    }
+    #stage{
+    margin-top:200px;
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    height:300px;
+    perspective:1200px;
+    font-size:5em;
+    font-weight:bold;
+    color:#cc00ff;
+
+    }
+    .cube{
+    position:relative;
+    transform:rotateX(-45deg) rotateY(45deg);
+    transform-style:preserve-3d;
+    transition: all .6s;
+    }
+    .side{
+    color:blue;
+    text-align:center;
+    width:300px;
+    height:300px;
+    line-height:300px;
+    position:absolute;/*令正方体的6个面处于同一个位置，为后面的div进行旋转做基础*/
+    background: rgba(52, 38, 23, 0.18);
+    opacity:0.8;/*设置图片的透明度*/
+    border:1px solid rgba(117,4,24,0.5);
+    }
+    /*以下是6个面按照x、y、z轴进行的旋转和平移*/
+    .front{
+    transform:translateZ(150px);
+    }
+    .back{
+    transform:rotateY(180deg) translateZ(150px);
+    }
+    .left{
+    transform:rotateY(-90deg) translateZ(150px);
+    }
+    .right{
+    transform:rotateY(90deg) translateZ(150px);
+    }
+    .top{
+    transform:rotateX(90deg) translateZ(150px);
+    }
+    .bottom{
+    transform:rotatex(-90deg) translateZ(150px);
+    }
+    /*以下是定义鼠标移上正方体是是否进行过渡变换*/
+    #stage:hover .cube{
+    transform:rotateX(-30deg) rotateY(360deg);
+    transition:transform .30s;
+    }
+
+    </style>
+</head>
+<body>
+<div id="stage"><!-stage为效果的展示舞台->
+    <div class="cube">
+        <div class="side front"><img src="new/19.jpg" alt="" /></div>
+        <div class="side back"><img src="new/2.jpg" alt="" /></div>
+        <div class="side left"><img src="new/3.jpg" alt="" /></div>
+        <div class="side right"><img src="new/18.jpg" alt="" /></div>
+        <div class="side top"><img src="new/5.jpg" alt="" /></div>
+        <div class="side bottom"><img src="new/1.jpg" alt="" /></div>
+    </div>
+</div>
+</body>
+</html>

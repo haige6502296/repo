@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>attr demo</title>
+    <style>
+        img {
+            padding: 10px;
+        }
+
+        #div1, #div2 {
+            color: #ffb658;
+            font-size: 24px;
+        }   </style>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body> ​
+<img>
+<div id="div1"><b>Attribute of Ajax</b></div>
+<div id="div2"></div>
+<script>
+    $("img").attr({src: "img/good-morning.jpg", title: "好朋友", alt: "good morning"});
+    ($("div#div1").text("alt属性：" + $("img").attr("alt")));
+    ($("div#div2").text("title属性：" + $("img").attr("title")));
+</script>
+</body>
+</html>

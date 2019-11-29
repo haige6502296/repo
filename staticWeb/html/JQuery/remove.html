@@ -1,0 +1,44 @@
+<!--If you want to remove elements without removing data and events, you should use the detach() method. If you want to remove only data and events, use the empty() method.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>remove method</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(function () {
+            $("#b1").on("click",function () {
+                $("h2").remove();
+            });
+            $("#b2").on("click",function () {
+                $("#p1").detach();
+            });
+            $("#b3").on("click",function (){
+                $("#div1").fadeIn();
+                $("#div2").fadeIn("slow");
+                $("#div3").fadeIn(2000);
+            });
+            $("#b4").on("click",function () {
+                $("#p1").empty();
+                $("#div1").remove();
+                $("#div2").remove();
+                $("#div3").remove();
+            });
+        })
+    </script>
+
+</head>
+<body>
+<h2>我是一个癞子（这个内容会被remove方法删除，包括元素h2）</h2>
+<p id="p1">我是一个小兵(p元素保留，但我是小兵会被删除，使用detach方法)</p>
+<div id="div1" style="width: 80px;height: 80px; display: none;background-color:red;"></div>
+<br>
+<div id="div2" style="width: 80px;height: 80px;display: none;background-color: green;"></div>
+<br>
+<div id="div3" style="width: 80px;height: 80px;display: none;background-color:blue;"></div>
+<button id="b1">1点我删除h2元素我是个癞子这个全部</button>
+<button id="b2">2点我会删除我是个小兵，但保留p元素</button>
+<button id="b3">3点我可以fadein三色框，必须在按钮四之前点击</button>
+<button id="b4">4点我使第三个按钮的功能失效,同时清除三个方框</button>
+</body>
+</html>
