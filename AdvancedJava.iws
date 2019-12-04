@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9bde47f-34ef-48fd-b647-b09adb8bcbc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/io/BufferedInputStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/BufferedOutputStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/ByteArrayInputStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/ByteArrayOutputStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/DataInputStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/DataOuteputStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/FileInputStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/FileOutputStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/ObjectStreamClassExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/ReadChineseFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/ReadMultipleFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/SmartPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/WriteAndReadByIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedJava.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedJava.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tool/LocaleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/ConsoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/CopyUsingByteStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/CopyUsingCharacterStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/FileAttributesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/FilePermissionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/FormatExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/ReadLineExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/ScannerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/TryResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdvancedJava.iws" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedJava.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/io/ObjectStreamClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/io/ObjectStreamClassExample.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,9 +95,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SmartPhone">
-    <configuration name="ByteArrayInputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.io.ByteArrayInputStreamExample" />
+  <component name="RunManager" selected="Application.LocaleExample">
+    <configuration name="FormatExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.io.FormatExample" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +109,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataInputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.io.DataInputStreamExample" />
+    <configuration name="LocaleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tool.LocaleExample" />
+      <module name="AdvancedJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadLineExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.io.ReadLineExample" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataOuteputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.io.DataOuteputStreamExample" />
+    <configuration name="ScannerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.io.ScannerExample" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
@@ -138,21 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectStreamClassExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.io.ObjectStreamClassExample" />
-      <module name="AdvancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmartPhone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.io.SmartPhone" />
+    <configuration name="TryResource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.io.TryResource" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
@@ -166,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SmartPhone" />
-        <item itemvalue="Application.ObjectStreamClassExample" />
-        <item itemvalue="Application.DataInputStreamExample" />
-        <item itemvalue="Application.DataOuteputStreamExample" />
-        <item itemvalue="Application.ByteArrayInputStreamExample" />
+        <item itemvalue="Application.LocaleExample" />
+        <item itemvalue="Application.FormatExample" />
+        <item itemvalue="Application.ScannerExample" />
+        <item itemvalue="Application.ReadLineExample" />
+        <item itemvalue="Application.TryResource" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +192,9 @@
       <workItem from="1575142106833" duration="593000" />
       <workItem from="1575178682410" duration="6546000" />
       <workItem from="1575221074482" duration="12641000" />
-      <workItem from="1575286663632" duration="20174000" />
+      <workItem from="1575286663632" duration="20316000" />
+      <workItem from="1575375396290" duration="16244000" />
+      <workItem from="1575461373197" duration="15508000" />
     </task>
     <task id="LOCAL-00001" summary="Advanced Java">
       <created>1574784288262</created>
@@ -218,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575131611713</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Advanced Java">
+      <created>1575311730333</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575311730333</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
