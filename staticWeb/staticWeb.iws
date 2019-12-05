@@ -2,51 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="880507b8-6b2b-4a7e-8ebe-47a1b938bbed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/3Dphotos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/HEHE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/ScrollTop2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/atrr.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/clone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/img/good-morning.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/prepend.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/remove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/JQuery/scrollTop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/myself.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/bgsong.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/bk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new/hehe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new1/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new1/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new1/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new1/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new1/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new1/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new1/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new1/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new1/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new1/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new1/bk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/new1/susu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/JQuery/HTMLjquer.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/JQuery/HTMLjquer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticWeb.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb.iws" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb.iws" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -250,7 +205,8 @@
       <workItem from="1574497949441" duration="372000" />
       <workItem from="1574498348525" duration="320000" />
       <workItem from="1574816082531" duration="18897000" />
-      <workItem from="1575002352265" duration="13324000" />
+      <workItem from="1575002352265" duration="14927000" />
+      <workItem from="1575508308462" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="javascript tutorial">
       <created>1572854577528</created>
@@ -329,7 +285,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574824325478</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="jquery tutorial">
+      <created>1575021968720</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575021968720</updated>
+    </task>
+    <task id="LOCAL-00013" summary="jquery tutorial">
+      <created>1575022091545</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575022091545</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
