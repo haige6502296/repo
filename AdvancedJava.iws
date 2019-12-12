@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9bde47f-34ef-48fd-b647-b09adb8bcbc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tool/LocaleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/ConsoleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/CopyUsingByteStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/CopyUsingCharacterStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/FileAttributesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/FilePermissionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/FormatExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/ReadLineExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/ScannerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/io/TryResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/AWT/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Date/LocalDateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Date/MonthDateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Date/TimeZoneExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Date/TimeZoneGetIdsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/net/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/net/HttpURLConnectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/net/InetAddressExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/net/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/net/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/net/SocketExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/net/URLConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/reflection/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/reflection/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/reflection/CallPrivateMethodWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/reflection/CallPrivateMethodWay2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/reflection/MyJavap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/DataOutputStreamAndDataInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/FileListMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/FileNameFilterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/Nio2/DirList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/Nio2/DirectoryStreamSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/Nio2/PathDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/io/Nio2/PathExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdvancedJava.iws" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedJava.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/io/ObjectStreamClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/io/ObjectStreamClassExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/io/ConsoleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/io/ConsoleExample.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +90,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -95,13 +109,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LocaleExample">
-    <configuration name="FormatExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.io.FormatExample" />
+  <component name="RunManager" selected="Application.MonthDateExample">
+    <configuration name="CallPrivateMethodWay2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.reflection.CallPrivateMethodWay2" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.io.*" />
+          <option name="PATTERN" value="com.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocaleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tool.LocaleExample" />
+    <configuration name="LocalDateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Date.LocalDateExample" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tool.*" />
+          <option name="PATTERN" value="com.Date.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadLineExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.io.ReadLineExample" />
+    <configuration name="MonthDateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Date.MonthDateExample" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.io.*" />
+          <option name="PATTERN" value="com.Date.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.io.ScannerExample" />
+    <configuration name="TimeZoneExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Date.TimeZoneExample" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.io.*" />
+          <option name="PATTERN" value="com.Date.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryResource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.io.TryResource" />
+    <configuration name="TimeZoneGetIdsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Date.TimeZoneGetIdsExample" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.io.*" />
+          <option name="PATTERN" value="com.Date.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LocaleExample" />
-        <item itemvalue="Application.FormatExample" />
-        <item itemvalue="Application.ScannerExample" />
-        <item itemvalue="Application.ReadLineExample" />
-        <item itemvalue="Application.TryResource" />
+        <item itemvalue="Application.MonthDateExample" />
+        <item itemvalue="Application.TimeZoneExample" />
+        <item itemvalue="Application.TimeZoneGetIdsExample" />
+        <item itemvalue="Application.LocalDateExample" />
+        <item itemvalue="Application.CallPrivateMethodWay2" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +208,18 @@
       <workItem from="1575221074482" duration="12641000" />
       <workItem from="1575286663632" duration="20316000" />
       <workItem from="1575375396290" duration="16244000" />
-      <workItem from="1575461373197" duration="15508000" />
+      <workItem from="1575461373197" duration="15542000" />
+      <workItem from="1575550525736" duration="5441000" />
+      <workItem from="1575563780624" duration="1565000" />
+      <workItem from="1575647612726" duration="3280000" />
+      <workItem from="1575796416321" duration="6935000" />
+      <workItem from="1575891584967" duration="8193000" />
+      <workItem from="1575902848812" duration="8222000" />
+      <workItem from="1575986958558" duration="6659000" />
+      <workItem from="1575994129196" duration="2578000" />
+      <workItem from="1575998500397" duration="1291000" />
+      <workItem from="1576064311974" duration="15456000" />
+      <workItem from="1576151667689" duration="1592000" />
     </task>
     <task id="LOCAL-00001" summary="Advanced Java">
       <created>1574784288262</created>
@@ -224,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575311730333</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Advanced Java">
+      <created>1575483341193</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575483341193</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
