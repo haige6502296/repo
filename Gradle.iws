@@ -52,6 +52,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1V7OS5Zl1PCyhZUH7jFkkdhjM9M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -109,10 +110,23 @@
       <updated>1576600663623</updated>
       <workItem from="1576600665484" duration="2895000" />
       <workItem from="1576669882647" duration="9000" />
+      <workItem from="1576857171000" duration="337000" />
     </task>
+    <task id="LOCAL-00001" summary="Gradle test">
+      <created>1576857247570</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576857247570</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Gradle test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gradle test" />
   </component>
 </project>
